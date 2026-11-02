@@ -1,35 +1,37 @@
 import { useEffect, useState } from 'react'
 import { CalendarDays, Clock, Eye } from 'lucide-react'
 
-const SESSION_KEY = 'autoev-visit-counted'
+const DAY_KEY = 'autoev-visit-day'
 const DIGITS = 6
+const todayWib = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Jakarta' }).format(new Date())
 
-// Counts this visit once per browser session (the server also de-duplicates per visitor per day),
-// then shows the totals. Renders nothing if the counter API isn't available, e.g. on static hosting.
+// Counts a browser once per day (WIB): refreshes, new tabs and server restarts only read the totals.
+// The server also de-duplicates per visitor per day. Renders nothing if the API isn't available,
+// e.g. on static hosting.
 export default function VisitCounter({ className = '' }) {
   const [stats, setStats] = useState(null)
 
   useEffect(() => {
-    let counted = false
+    let alive = true
+    let countNow = true
     try {
-      counted = sessionStorage.getItem(SESSION_KEY) === '1'
+      const today = todayWib()
+      countNow = localStorage.getItem(DAY_KEY) !== today
+      // Mark before sending, so a second mount (React StrictMode, quick reload) doesn't count again
+      if (countNow) localStorage.setItem(DAY_KEY, today)
     } catch {
-      // storage blocked: just count, the server de-duplicates anyway
+      // storage blocked: count anyway, the server de-duplicates
     }
-    const ctrl = new AbortController()
-    fetch('/api/visits', { method: counted ? 'GET' : 'POST', signal: ctrl.signal })
+    // Not aborted on unmount: a counting POST that was sent should finish
+    fetch('/api/visits', { method: countNow ? 'POST' : 'GET' })
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
       .then((data) => {
-        if (typeof data?.total !== 'number') return
-        setStats(data)
-        try {
-          sessionStorage.setItem(SESSION_KEY, '1')
-        } catch {
-          // ignore
-        }
+        if (alive && typeof data?.total === 'number') setStats(data)
       })
       .catch(() => {})
-    return () => ctrl.abort()
+    return () => {
+      alive = false
+    }
   }, [])
 
   if (!stats) return null
