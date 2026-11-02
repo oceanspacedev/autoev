@@ -225,7 +225,8 @@ export default function Collection() {
         <div className="container-ev lg:grid lg:grid-cols-[14rem_1fr] lg:gap-12 lg:pt-10">
           {/* Desktop sidebar */}
           <aside className="hidden lg:block">
-            <div className="sticky top-28">
+            {/* Capped to the viewport with its own scroll: 14 brands + price ranges are taller than most screens */}
+            <div className="sticky top-28 max-h-[calc(100vh-8rem)] no-scrollbar overflow-y-auto overscroll-contain pb-8 pr-3">
               <Filters brand={brand} price={price} q={needle} update={update} />
               {filtered && (
                 <button type="button" onClick={reset} className="mt-8 inline-flex items-center gap-1.5 font-ui text-xs font-bold uppercase tracking-wider text-ev-red hover:underline">
