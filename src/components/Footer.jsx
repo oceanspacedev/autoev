@@ -2,13 +2,14 @@ import { Link } from 'react-router-dom'
 import { Clock, Mail, MapPin, Phone } from 'lucide-react'
 import { site, showrooms } from '../lib/data.js'
 import { NAV, SOCIAL_ICONS } from '../lib/nav.js'
+import VisitCounter from './VisitCounter.jsx'
 
 const YEAR = new Date().getFullYear()
 
 export default function Footer() {
   return (
     <footer className="bg-black text-white/80">
-      <div className="container-ev grid grid-cols-2 gap-x-6 gap-y-10 py-12 sm:gap-12 sm:py-16 lg:grid-cols-4">
+      <div className="container-ev grid grid-cols-2 gap-x-6 gap-y-10 py-12 sm:gap-12 sm:py-16 lg:grid-cols-3 xl:grid-cols-[1.05fr_0.9fr_1fr_1.3fr_1fr] xl:gap-8">
         <div className="col-span-2 sm:col-span-1">
           <img src={site.logo} alt="Auto EV" className="h-10 w-auto" />
           <p className="mt-5 max-w-xs text-sm leading-7">
@@ -70,6 +71,8 @@ export default function Footer() {
             ))}
           </ul>
         </div>
+
+        <VisitCounter className="col-span-2 sm:col-span-1" />
       </div>
       <div className="bg-ev-red-dark py-4 text-center font-ui text-xs font-semibold text-white">
         Auto EV © 2022 – {YEAR} · {site.tagline}

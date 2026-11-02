@@ -1,6 +1,6 @@
 # Auto EV — website baru
 
-React + Vite + Tailwind CSS v4. Website statis: tidak ada database atau panel admin, semua data ada di `src/data/`.
+React + Vite + Tailwind CSS v4. Konten statis di `src/data/`, plus server Node kecil (`server/`) untuk penghitung kunjungan.
 
 ## Menjalankan
 
@@ -9,6 +9,7 @@ npm install
 npm run dev      # http://localhost:5173
 npm run build    # hasil di dist/
 npm run lint
+npm start        # setelah build: server produksi di http://localhost:3000
 ```
 
 ## Halaman
@@ -39,7 +40,18 @@ sebaiknya dilakukan setelah tidak ada lagi scraping ulang.
 Merah `#EF4D48` / `#D90700`, judul `#2B161B`, teks `#453E3E`, latar `#F7F3F5`.
 Font: Racing Sans One (judul), Montserrat (teks), Inter (menu). Token ada di `src/index.css` (`@theme`).
 
+## Penghitung kunjungan (footer)
+
+Footer menampilkan total kunjungan, hari ini, kemarin, dan bulan ini (WIB), seperti website lama.
+Angka disimpan di file lokal `server/data/visits.json` (tidak masuk git). Total dimulai dari 24.805,
+angka terakhir di website lama. Satu pengunjung dihitung sekali per hari.
+
+- `npm run dev` dan `npm start` sama-sama menyediakan endpoint `/api/visits`.
+- Lokasi file bisa diganti lewat env `VISITS_FILE`; port server lewat `PORT`.
+- Kalau situs di-hosting statis tanpa server ini, penghitung otomatis disembunyikan.
+
 ## Deploy
 
-Hasil `npm run build` adalah situs statis di `dist/`. Karena pakai client-side routing, server/hosting
-perlu mengarahkan semua URL yang tidak dikenal ke `index.html` (SPA fallback).
+Jalankan `npm run build` lalu `npm start` di server (Node 20+). Server ini menyajikan `dist/`,
+mengarahkan semua URL ke `index.html` (client-side routing), dan menyimpan data kunjungan.
+Pastikan folder `server/data/` ikut di-backup.

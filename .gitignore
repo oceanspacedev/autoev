@@ -31,3 +31,6 @@ scraper/output/*.txt
 
 # Design mockups from planning sessions
 .superpowers/
+
+# Visit counter data (lives on the server, not in git)
+server/data/
