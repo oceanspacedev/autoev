@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+/* Brand tokens carried over unchanged from autoev.co.id (Astra global colors + fonts) */
+@theme {
+  --color-ev-red: #ef4d48;
+  --color-ev-red-dark: #d90700;
+  --color-ev-ink: #2b161b;
+  --color-ev-text: #453e3e;
+  --color-ev-soft: #f7f3f5;
+  --color-ev-gray: #4b4f58;
+  --color-ev-light: #f6f7f8;
+  --color-ev-wa: #128c7e;
+
+  --font-display: "Racing Sans One", "Impact", sans-serif;
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-ui: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --animate-fade-up: fade-up 0.6s ease-out both;
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-white font-sans font-medium text-ev-text antialiased;
+  }
+  h1, h2, h3 {
+    @apply font-display uppercase text-ev-ink;
+  }
+  ::selection { @apply bg-ev-red text-white; }
+}
+
+/* A utility (not a component class) so the variants below can @apply it */
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 font-sans text-sm font-semibold uppercase tracking-wide transition duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ev-red;
+}
+
+@layer components {
+  .container-ev { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+
+  .btn-red { @apply btn bg-ev-red text-white hover:bg-ev-red-dark; }
+  .btn-black { @apply btn bg-black text-white hover:bg-ev-ink; }
+  .btn-wa { @apply btn bg-ev-wa text-white hover:brightness-110; }
+  .btn-outline { @apply btn border-2 border-current hover:bg-black hover:border-black hover:text-white; }
+
+  .eyebrow { @apply font-ui text-xs font-bold uppercase tracking-[0.18em] text-ev-red; }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 border px-3.5 py-2 font-ui text-xs font-semibold uppercase tracking-wide transition;
+  }
+
+  /* Diagonal red block — the signature shape of the "Bold Sporty" direction */
+  /* Shallower slant on phones so the hero stats aren't clipped */
+  .slash-right { clip-path: polygon(0 0, 100% 0, calc(100% - 1.5rem) 100%, 0 100%); }
+  @media (min-width: 64rem) {
+    .slash-right { clip-path: polygon(0 0, 100% 0, calc(100% - 4rem) 100%, 0 100%); }
+  }
+  .slash-band { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2.5rem), 0 100%); }
+
+  /* Article body copied from WordPress */
+  .prose-ev { @apply text-[15px] leading-8 text-ev-text; }
+  .prose-ev p { @apply my-5; }
+  .prose-ev h2, .prose-ev h3, .prose-ev h4 { @apply mt-10 mb-3 font-display text-2xl uppercase text-ev-ink; }
+  .prose-ev a { @apply font-semibold text-ev-red underline underline-offset-4; }
+  .prose-ev img { @apply my-8 h-auto w-full; }
+  .prose-ev ul { @apply my-5 list-disc pl-6; }
+  .prose-ev ol { @apply my-5 list-decimal pl-6; }
+  .prose-ev figure { @apply my-8; }
+  .prose-ev figcaption { @apply mt-2 text-center text-xs text-ev-gray; }
+  .prose-ev strong { @apply text-ev-ink; }
+}
+
+/* Scroll reveal (see components/Reveal.jsx) */
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.reveal.is-visible { opacity: 1; transform: none; }
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+/* Testimonial row (Home.jsx): track holds two copies, so -50% loops seamlessly */
+.reviews-marquee { animation: reviews-marquee 55s linear infinite; }
+.reviews-row:hover .reviews-marquee,
+.reviews-row:focus-within .reviews-marquee { animation-play-state: paused; }
+@keyframes reviews-marquee {
+  to { transform: translateX(-50%); }
+}
+
+/* Brand name strip under the hero (Home.jsx); same two-copy loop */
+.brand-marquee { animation: reviews-marquee 40s linear infinite; }
+.brand-row:hover .brand-marquee { animation-play-state: paused; }
+
+/* Hero slider countdown bar (Home.jsx); duration comes from --hero-interval */
+.hero-progress { animation: hero-progress var(--hero-interval, 4s) linear forwards; }
+@keyframes hero-progress {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+  /* Keep the countdown honest: it's a timer readout, not decoration */
+  .hero-progress { animation-duration: var(--hero-interval, 4s) !important; }
+  /* Reviews keep drifting, just slower; hovering still pauses them */
+  .reviews-marquee { animation-duration: 90s !important; animation-iteration-count: infinite !important; }
+  .brand-marquee { animation-duration: 70s !important; animation-iteration-count: infinite !important; }
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "Jenis",
+    "taxonomy": "pa_jenis",
+    "type": "label",
+    "order": "menu_order",
+    "has_archives": false,
+    "count": 1
+  }
+]

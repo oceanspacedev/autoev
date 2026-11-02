@@ -1,0 +1,106 @@
+[
+  {
+    "id": 76,
+    "name": "EXOTIC",
+    "slug": "exotic",
+    "description": "",
+    "parent": 0,
+    "count": 28
+  },
+  {
+    "id": 83,
+    "name": "GENIO",
+    "slug": "genio",
+    "description": "",
+    "parent": 0,
+    "count": 13
+  },
+  {
+    "id": 70,
+    "name": "GODA",
+    "slug": "goda",
+    "description": "",
+    "parent": 0,
+    "count": 18
+  },
+  {
+    "id": 93,
+    "name": "MEVI",
+    "slug": "mevi",
+    "description": "",
+    "parent": 0,
+    "count": 5
+  },
+  {
+    "id": 94,
+    "name": "OFERO",
+    "slug": "ofero",
+    "description": "",
+    "parent": 0,
+    "count": 9
+  },
+  {
+    "id": 78,
+    "name": "PACIFIC",
+    "slug": "pacific",
+    "description": "",
+    "parent": 0,
+    "count": 8
+  },
+  {
+    "id": 109,
+    "name": "RUBICK",
+    "slug": "rubick",
+    "description": "",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 85,
+    "name": "SELIS",
+    "slug": "selis",
+    "description": "",
+    "parent": 0,
+    "count": 7
+  },
+  {
+    "id": 111,
+    "name": "SEVENBOT",
+    "slug": "sevenbot",
+    "description": "",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 80,
+    "name": "UNITED",
+    "slug": "united",
+    "description": "",
+    "parent": 0,
+    "count": 4
+  },
+  {
+    "id": 65,
+    "name": "UOU",
+    "slug": "uou",
+    "description": "",
+    "parent": 0,
+    "count": 5
+  },
+  {
+    "id": 72,
+    "name": "UWINFLY",
+    "slug": "uwinfly",
+    "description": "",
+    "parent": 0,
+    "count": 18
+  },
+  {
+    "id": 73,
+    "name": "VIAR",
+    "slug": "viar",
+    "description": "",
+    "parent": 0,
+    "count": 3
+  }
+]

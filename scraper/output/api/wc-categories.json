@@ -1,0 +1,233 @@
+[
+  {
+    "id": 75,
+    "name": "EXOTIC",
+    "slug": "exotic",
+    "description": "Mau merasakan sensasi berkendara yang luar biasa? Coba saja exotic bike electric kami. Didesain dengan body keren dan performa mesin yang tangguh, kendaraan ini pasti akan membuatmu merasa seperti superhero saat berkendara. Selain itu, kendaraan ini juga ramah lingkungan karena menggunakan baterai listrik sebagai sumber tenaganya. Jadi, tunggu apa lagi? Segera dapatkan exotic bike electric kami sekarang juga!",
+    "parent": 0,
+    "count": 28,
+    "image": {
+      "id": 13446,
+      "src": "https://autoev.co.id/wp-content/uploads/2022/12/exotic-bike.png",
+      "thumbnail": "https://autoev.co.id/wp-content/uploads/2022/12/exotic-bike.png",
+      "srcset": "",
+      "sizes": "(max-width: 300px) 100vw, 300px",
+      "name": "exotic-bike",
+      "alt": ""
+    },
+    "review_count": 0,
+    "permalink": "https://autoev.co.id/product-category/exotic/"
+  },
+  {
+    "id": 82,
+    "name": "GENIO",
+    "slug": "genio",
+    "description": "Perkenalkan Sepeda Listrik Genio: Solusi berkendara ramah lingkunganmu. Dengan desain ramping dan motor yang kuat, ini adalah cara sempurna untuk berkomute atau menjelajahi kota. Katakan selamat tinggal pada kemacetan dan sambutlah keberlanjutan dengan Sepeda Listrik Genio.",
+    "parent": 0,
+    "count": 13,
+    "image": {
+      "id": 13771,
+      "src": "https://autoev.co.id/wp-content/uploads/2023/02/genio_red.png",
+      "thumbnail": "https://autoev.co.id/wp-content/uploads/2023/02/genio_red-300x300.png",
+      "srcset": "https://autoev.co.id/wp-content/uploads/2023/02/genio_red.png 4766w, https://autoev.co.id/wp-content/uploads/2023/02/genio_red-300x53.png 300w, https://autoev.co.id/wp-content/uploads/2023/02/genio_red-1024x181.png 1024w, https://autoev.co.id/wp-content/uploads/2023/02/genio_red-768x136.png 768w, https://autoev.co.id/wp-content/uploads/2023/02/genio_red-1536x272.png 1536w, https://autoev.co.id/wp-content/uploads/2023/02/genio_red-2048x362.png 2048w, https://autoev.co.id/wp-content/uploads/2023/02/genio_red-600x106.png 600w",
+      "sizes": "(max-width: 4766px) 100vw, 4766px",
+      "name": "genio_red",
+      "alt": "genio autoev"
+    },
+    "review_count": 0,
+    "permalink": "https://autoev.co.id/product-category/genio/"
+  },
+  {
+    "id": 67,
+    "name": "GODA",
+    "slug": "product_3",
+    "description": "GODA merupakan salahs satu merk sepda listrik yang bermitra dengan kami yang sedang hits sekarang.",
+    "parent": 0,
+    "count": 18,
+    "image": {
+      "id": 12947,
+      "src": "https://autoev.co.id/wp-content/uploads/2022/12/GODA.svg",
+      "thumbnail": "https://autoev.co.id/wp-content/uploads/2022/12/GODA.svg",
+      "srcset": "",
+      "sizes": "",
+      "name": "GODA",
+      "alt": ""
+    },
+    "review_count": 0,
+    "permalink": "https://autoev.co.id/product-category/product_3/"
+  },
+  {
+    "id": 92,
+    "name": "MEVI",
+    "slug": "mevi",
+    "description": "Temukan pengalaman berkendara yang luar biasa dengan sepeda listrik MEVI! Dengan teknologi terkini dan desain yang modern, sepeda listrik MEVI memberikan akselerasi yang lancar dan bertenaga, serta jarak tempuh yang jauh dengan baterai yang tahan lama. Tidak hanya itu, sepeda listrik MEVI juga ramah lingkungan dan hemat biaya. Dapatkan sepeda listrik MEVI Anda sekarang di Auto EV dan nikmati kebebasan berkendara dengan gaya yang lebih hijau.",
+    "parent": 0,
+    "count": 5,
+    "image": {
+      "id": 14063,
+      "src": "https://autoev.co.id/wp-content/uploads/2023/03/mevi.png",
+      "thumbnail": "https://autoev.co.id/wp-content/uploads/2023/03/mevi-300x300.png",
+      "srcset": "https://autoev.co.id/wp-content/uploads/2023/03/mevi.png 771w, https://autoev.co.id/wp-content/uploads/2023/03/mevi-300x298.png 300w, https://autoev.co.id/wp-content/uploads/2023/03/mevi-150x150.png 150w, https://autoev.co.id/wp-content/uploads/2023/03/mevi-768x764.png 768w, https://autoev.co.id/wp-content/uploads/2023/03/mevi-600x597.png 600w, https://autoev.co.id/wp-content/uploads/2023/03/mevi-100x100.png 100w",
+      "sizes": "(max-width: 771px) 100vw, 771px",
+      "name": "mevi",
+      "alt": "Mevi"
+    },
+    "review_count": 0,
+    "permalink": "https://autoev.co.id/product-category/mevi/"
+  },
+  {
+    "id": 91,
+    "name": "OFERO",
+    "slug": "ofero",
+    "description": "Rasakan kebebasan berkendara tanpa batas dengan sepeda listrik Ofero dari <a href=\"https://autoev.co.id\">Auto EV</a>! Dengan desain yang elegan dan bertenaga, sepeda listrik Ofero memberikan pengalaman berkendara yang menyenangkan dan ramah lingkungan. Dapatkan sepeda listrik Ofero Anda sekarang dan nikmati keuntungan bepergian dengan biaya yang lebih murah dan tanpa emisi karbon.",
+    "parent": 0,
+    "count": 9,
+    "image": {
+      "id": 14062,
+      "src": "https://autoev.co.id/wp-content/uploads/2023/03/ofero.png",
+      "thumbnail": "https://autoev.co.id/wp-content/uploads/2023/03/ofero-300x300.png",
+      "srcset": "https://autoev.co.id/wp-content/uploads/2023/03/ofero.png 500w, https://autoev.co.id/wp-content/uploads/2023/03/ofero-300x300.png 300w, https://autoev.co.id/wp-content/uploads/2023/03/ofero-150x150.png 150w, https://autoev.co.id/wp-content/uploads/2023/03/ofero-100x100.png 100w",
+      "sizes": "(max-width: 500px) 100vw, 500px",
+      "name": "ofero",
+      "alt": "Ofero"
+    },
+    "review_count": 0,
+    "permalink": "https://autoev.co.id/product-category/ofero/"
+  },
+  {
+    "id": 77,
+    "name": "PACIFIC",
+    "slug": "pacific",
+    "description": "Sepeda listrik Pacific merupakan pilihan terbaik bagi Anda yang ingin berkendara hemat energi dan ramah lingkungan. Dengan sistem pengereman dan transmisi yang handal, sepeda listrik Pacific memastikan kenyamanan dan keamanan Anda saat berkendara. Selain itu, desain yang elegan dan modern membuat sepeda ini menjadi pilihan yang sempurna untuk gaya hidup sehat dan trendi.",
+    "parent": 0,
+    "count": 8,
+    "image": {
+      "id": 13510,
+      "src": "https://autoev.co.id/wp-content/uploads/2022/12/LOGO-PACIFIC-BARU-2.png",
+      "thumbnail": "https://autoev.co.id/wp-content/uploads/2022/12/LOGO-PACIFIC-BARU-2-300x195.png",
+      "srcset": "https://autoev.co.id/wp-content/uploads/2022/12/LOGO-PACIFIC-BARU-2.png 310w, https://autoev.co.id/wp-content/uploads/2022/12/LOGO-PACIFIC-BARU-2-300x189.png 300w",
+      "sizes": "(max-width: 310px) 100vw, 310px",
+      "name": "LOGO-PACIFIC-BARU-2",
+      "alt": ""
+    },
+    "review_count": 0,
+    "permalink": "https://autoev.co.id/product-category/pacific/"
+  },
+  {
+    "id": 108,
+    "name": "RUBICK",
+    "slug": "rubick",
+    "description": "",
+    "parent": 0,
+    "count": 2,
+    "image": null,
+    "review_count": 0,
+    "permalink": "https://autoev.co.id/product-category/rubick/"
+  },
+  {
+    "id": 84,
+    "name": "SELIS",
+    "slug": "selis",
+    "description": "Selis Electric Bikes memperkenalkan sepeda listrik yang menggabungkan gaya dan keberlanjutan dengan sempurna. Kami merancang sepeda listrik ini untuk membantu Anda dalam berkomuting dan menjelajahi kota dengan mudah, sambil mengurangi jejak karbon. Dengan Selis, Anda bisa menikmati kebebasan bersepeda tanpa harus merasa lelah. Tingkatkan pengalaman berkendara Anda dengan Selis Electric Bikes.",
+    "parent": 0,
+    "count": 7,
+    "image": {
+      "id": 13864,
+      "src": "https://autoev.co.id/wp-content/uploads/2023/03/logo-selis.png",
+      "thumbnail": "https://autoev.co.id/wp-content/uploads/2023/03/logo-selis-300x168.png",
+      "srcset": "https://autoev.co.id/wp-content/uploads/2023/03/logo-selis.png 561w, https://autoev.co.id/wp-content/uploads/2023/03/logo-selis-300x90.png 300w",
+      "sizes": "(max-width: 561px) 100vw, 561px",
+      "name": "logo-selis",
+      "alt": "Selis Auto EV"
+    },
+    "review_count": 0,
+    "permalink": "https://autoev.co.id/product-category/selis/"
+  },
+  {
+    "id": 110,
+    "name": "SEVENBOT",
+    "slug": "sevenbot",
+    "description": "",
+    "parent": 0,
+    "count": 2,
+    "image": null,
+    "review_count": 0,
+    "permalink": "https://autoev.co.id/product-category/sevenbot/"
+  },
+  {
+    "id": 79,
+    "name": "UNITED",
+    "slug": "united",
+    "description": "Sepeda Listrik United, Sepeda yang Lebih Cepat, Lebih Hemat, dan Lebih Nyaman! Nikmati perjalanan tanpa repot dengan tenaga yang stabil dan tahan lama. Desain yang elegan dan modern membuat Anda tampil keren di jalan. Ayo, dapatkan sepeda listrik United sekarang dan rasakan pengalaman bersepeda yang baru!",
+    "parent": 0,
+    "count": 4,
+    "image": {
+      "id": 13750,
+      "src": "https://autoev.co.id/wp-content/uploads/2023/02/united.png",
+      "thumbnail": "https://autoev.co.id/wp-content/uploads/2023/02/united-300x300.png",
+      "srcset": "https://autoev.co.id/wp-content/uploads/2023/02/united.png 3508w, https://autoev.co.id/wp-content/uploads/2023/02/united-300x212.png 300w, https://autoev.co.id/wp-content/uploads/2023/02/united-1024x724.png 1024w, https://autoev.co.id/wp-content/uploads/2023/02/united-768x543.png 768w, https://autoev.co.id/wp-content/uploads/2023/02/united-1536x1086.png 1536w, https://autoev.co.id/wp-content/uploads/2023/02/united-2048x1448.png 2048w, https://autoev.co.id/wp-content/uploads/2023/02/united-600x424.png 600w",
+      "sizes": "(max-width: 3508px) 100vw, 3508px",
+      "name": "united",
+      "alt": "united autoev"
+    },
+    "review_count": 0,
+    "permalink": "https://autoev.co.id/product-category/united/"
+  },
+  {
+    "id": 66,
+    "name": "UOU",
+    "slug": "product_1",
+    "description": "<a href=\"https://uouindonesia.co.id/\">UOU</a> merupakan salah satu merk sepeda listik yang sedang menjadi hits saat ini.",
+    "parent": 0,
+    "count": 6,
+    "image": {
+      "id": 12948,
+      "src": "https://autoev.co.id/wp-content/uploads/2022/12/UOU.svg",
+      "thumbnail": "https://autoev.co.id/wp-content/uploads/2022/12/UOU.svg",
+      "srcset": "",
+      "sizes": "",
+      "name": "UOU",
+      "alt": ""
+    },
+    "review_count": 0,
+    "permalink": "https://autoev.co.id/product-category/product_1/"
+  },
+  {
+    "id": 68,
+    "name": "UWINFLY",
+    "slug": "product_4",
+    "description": "UWinfly merupakan merek motor listrik produksi Cina dan dirakit di Semarang, Jawa Tengah. Awalnya UWinfly menawarkan produk sepeda listrik sebelum akhirnya mulai merambah menawarkan sepeda motor listrik.",
+    "parent": 0,
+    "count": 18,
+    "image": {
+      "id": 12949,
+      "src": "https://autoev.co.id/wp-content/uploads/2022/12/UWINFLY.svg",
+      "thumbnail": "https://autoev.co.id/wp-content/uploads/2022/12/UWINFLY.svg",
+      "srcset": "",
+      "sizes": "",
+      "name": "UWINFLY",
+      "alt": ""
+    },
+    "review_count": 1,
+    "permalink": "https://autoev.co.id/product-category/product_4/"
+  },
+  {
+    "id": 69,
+    "name": "VIAR",
+    "slug": "product_2-viar",
+    "description": "Viar merupakan salah satu merek sepeda motor terkemuka di Indonesia. Merek Viar berada di bawah naungan PT Triangle Motorindo. Sejak awal berdirinya, perusahaan ini telah menjadi Agen Tunggal Pemegang Merek Viar.",
+    "parent": 0,
+    "count": 2,
+    "image": {
+      "id": 12946,
+      "src": "https://autoev.co.id/wp-content/uploads/2022/12/VIAR.svg",
+      "thumbnail": "https://autoev.co.id/wp-content/uploads/2022/12/VIAR.svg",
+      "srcset": "",
+      "sizes": "",
+      "name": "VIAR",
+      "alt": ""
+    },
+    "review_count": 0,
+    "permalink": "https://autoev.co.id/product-category/product_2-viar/"
+  }
+]

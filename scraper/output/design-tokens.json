@@ -1,0 +1,1940 @@
+{
+  "source": "https://autoev.co.id",
+  "measuredAt": "2026-11-02T01:45:54.002Z",
+  "note": "Weights: text colors/fonts = characters rendered; backgrounds = area in 1000px²; measured on desktop 1440px.",
+  "cssVariables": {
+    "--wp--preset--color--vivid-purple": "#9b51e0",
+    "--e-global-color-astglobalcolor4": "#F7F3F5",
+    "--wp--preset--color--ast-global-color-4": "#F7F3F5",
+    "--wp--preset--color--pale-pink": "#f78da7",
+    "--e-global-color-astglobalcolor6": "#000000",
+    "--ast-global-color-subtle-background": "#000000",
+    "--wp--preset--color--ast-global-color-5": "#FFFFFF",
+    "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+    "--ast-global-color-secondary": "#F7F3F5",
+    "--e-global-color-astglobalcolor8": "#F6F7F8",
+    "--wp--preset--color--ast-global-color-0": "#EF4D48",
+    "--wp--preset--color--vivid-green-cyan": "#00d084",
+    "--ast-global-color-5": "#FFFFFF",
+    "--wp--preset--color--ast-global-color-7": "#4B4F58",
+    "--wp--preset--color--ast-global-color-3": "#453E3E",
+    "--ast-global-dark-lfs": "#fbfbfb",
+    "--ast-global-color-8": "#F6F7F8",
+    "--ast-global-color-6": "#000000",
+    "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+    "--wp--preset--color--ast-global-color-1": "#D90700",
+    "--ast-global-color-2": "#2B161B",
+    "--e-global-color-astglobalcolor3": "#453E3E",
+    "--ast-global-color-4": "#F7F3F5",
+    "--ast-global-color-7": "#4B4F58",
+    "--ast-global-color-primary": "#FFFFFF",
+    "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+    "--e-global-color-astglobalcolor2": "#2B161B",
+    "--wp--preset--color--ast-global-color-8": "#F6F7F8",
+    "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+    "--ast-global-color-alternate-background": "#4B4F58",
+    "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+    "--wp--preset--color--vivid-red": "#cf2e2e",
+    "--ast-global-color-0": "#EF4D48",
+    "--wp--preset--color--light-green-cyan": "#7bdcb5",
+    "--ast-global-dark-bg-style": "#fff",
+    "--wp--preset--color--white": "#ffffff",
+    "--wp--preset--color--ast-global-color-6": "#000000",
+    "--wp--preset--color--black": "#000000",
+    "--wp--preset--color--ast-global-color-2": "#2B161B",
+    "--ast-global-color-1": "#D90700",
+    "--e-global-color-astglobalcolor1": "#D90700",
+    "--ast-global-color-3": "#453E3E",
+    "--e-global-color-astglobalcolor7": "#4B4F58",
+    "--e-global-color-astglobalcolor5": "#FFFFFF",
+    "--e-global-color-astglobalcolor0": "#EF4D48"
+  },
+  "fontsLoaded": [
+    "Montserrat 500 normal",
+    "Racing Sans One 400 normal",
+    "Inter 400 normal",
+    "Inter 600 normal",
+    "Inter 700 normal",
+    "Roboto 400 normal",
+    "Roboto 600 normal",
+    "Roboto 700 normal"
+  ],
+  "googleFontLinks": [
+    "https://fonts.googleapis.com/",
+    "https://fonts.googleapis.com/",
+    "https://fonts.gstatic.com/",
+    "https://fonts.googleapis.com/css?family=Montserrat:500%2C|Racing+Sans+One:400&display=swap&ver=4.14.2",
+    "https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic%7CRoboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic%7CInter:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&ver=7.1.4",
+    "https://fonts.gstatic.com/"
+  ],
+  "fontsByUsage": [
+    {
+      "value": "Montserrat 500",
+      "weight": 6986
+    },
+    {
+      "value": "Inter 400",
+      "weight": 3694
+    },
+    {
+      "value": "Montserrat 400",
+      "weight": 2947
+    },
+    {
+      "value": "Racing Sans One 400",
+      "weight": 2828
+    },
+    {
+      "value": "Inter 600",
+      "weight": 1101
+    },
+    {
+      "value": "Montserrat 700",
+      "weight": 443
+    },
+    {
+      "value": "Inter 700",
+      "weight": 311
+    },
+    {
+      "value": "Roboto 700",
+      "weight": 56
+    },
+    {
+      "value": "-apple-system 400",
+      "weight": 55
+    },
+    {
+      "value": "Roboto 600",
+      "weight": 26
+    },
+    {
+      "value": "-apple-system 700",
+      "weight": 25
+    },
+    {
+      "value": "Racing Sans One 500",
+      "weight": 15
+    }
+  ],
+  "textColors": [
+    {
+      "value": "#453E3E",
+      "weight": 6432
+    },
+    {
+      "value": "#DDDDDD",
+      "weight": 2684
+    },
+    {
+      "value": "#2B161B",
+      "weight": 2306
+    },
+    {
+      "value": "#FFFFFF",
+      "weight": 1758
+    },
+    {
+      "value": "#F2F2F2",
+      "weight": 1384
+    },
+    {
+      "value": "#777777",
+      "weight": 1121
+    },
+    {
+      "value": "#4B4F58",
+      "weight": 909
+    },
+    {
+      "value": "#EF4D48",
+      "weight": 840
+    },
+    {
+      "value": "#444444",
+      "weight": 187
+    },
+    {
+      "value": "#000000",
+      "weight": 176
+    },
+    {
+      "value": "#ADADAD",
+      "weight": 172
+    },
+    {
+      "value": "#F9F9F9",
+      "weight": 164
+    },
+    {
+      "value": "#222222",
+      "weight": 121
+    },
+    {
+      "value": "#DE4141",
+      "weight": 56
+    },
+    {
+      "value": "#D90700",
+      "weight": 42
+    },
+    {
+      "value": "#AEBCB9",
+      "weight": 29
+    },
+    {
+      "value": "#111111@0.5",
+      "weight": 26
+    },
+    {
+      "value": "#BDBDBD",
+      "weight": 25
+    },
+    {
+      "value": "#515151",
+      "weight": 22
+    },
+    {
+      "value": "#CD0F0F",
+      "weight": 19
+    }
+  ],
+  "backgroundColors": [
+    {
+      "value": "#FFFFFF",
+      "weight": 36600
+    },
+    {
+      "value": "#000000",
+      "weight": 6908
+    },
+    {
+      "value": "#EF4D48",
+      "weight": 1221
+    },
+    {
+      "value": "#D90700",
+      "weight": 874
+    },
+    {
+      "value": "#FAFAFA",
+      "weight": 315
+    },
+    {
+      "value": "#000000@0.1",
+      "weight": 242
+    },
+    {
+      "value": "#00A0D2",
+      "weight": 187
+    },
+    {
+      "value": "#DE4141",
+      "weight": 16
+    },
+    {
+      "value": "#F7F3F5",
+      "weight": 7
+    },
+    {
+      "value": "#3897F0",
+      "weight": 7
+    },
+    {
+      "value": "#128C7E",
+      "weight": 7
+    },
+    {
+      "value": "#EEEEEE@0.9",
+      "weight": 5
+    },
+    {
+      "value": "#32373C",
+      "weight": 4
+    },
+    {
+      "value": "#0095F6",
+      "weight": 3
+    },
+    {
+      "value": "#EDEDED",
+      "weight": 3
+    },
+    {
+      "value": "#FFFFFF@0.5",
+      "weight": 1
+    }
+  ],
+  "borderColors": [
+    {
+      "value": "#7A7A7A@0.22",
+      "weight": 11
+    },
+    {
+      "value": "#EF4D48",
+      "weight": 9
+    },
+    {
+      "value": "#DDDDDD",
+      "weight": 8
+    },
+    {
+      "value": "#D8D8D8",
+      "weight": 2
+    }
+  ],
+  "gradients": [
+    {
+      "value": "linear-gradient(40deg, rgb(249, 155, 74) 15%, rgb(221, 48, 113) 50%, rgb(199, 46, 141) 85%)",
+      "weight": 1
+    },
+    {
+      "value": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(239, 77, 72) 0px, rgb(239, 77, 72) 100%, rgba(0, 0, 0, 0) 0px)",
+      "weight": 1
+    }
+  ],
+  "typeStyles": [
+    {
+      "tag": "span",
+      "family": "Montserrat",
+      "size": "16px",
+      "fontWeight": "400",
+      "lineHeight": "29.7143px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 2930
+    },
+    {
+      "tag": "p",
+      "family": "Inter",
+      "size": "14px",
+      "fontWeight": "400",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 2506
+    },
+    {
+      "tag": "h2",
+      "family": "Racing Sans One",
+      "size": "16px",
+      "fontWeight": "400",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 1952
+    },
+    {
+      "tag": "p",
+      "family": "Montserrat",
+      "size": "14px",
+      "fontWeight": "500",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 1100
+    },
+    {
+      "tag": "button",
+      "family": "Montserrat",
+      "size": "16px",
+      "fontWeight": "500",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 1057
+    },
+    {
+      "tag": "span",
+      "family": "Inter",
+      "size": "14px",
+      "fontWeight": "400",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 946
+    },
+    {
+      "tag": "p",
+      "family": "Montserrat",
+      "size": "15px",
+      "fontWeight": "500",
+      "lineHeight": "27.8571px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 912
+    },
+    {
+      "tag": "span",
+      "family": "Montserrat",
+      "size": "13.6px",
+      "fontWeight": "500",
+      "lineHeight": "17.68px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 802
+    },
+    {
+      "tag": "p",
+      "family": "Montserrat",
+      "size": "12px",
+      "fontWeight": "500",
+      "lineHeight": "22.2857px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 798
+    },
+    {
+      "tag": "div",
+      "family": "Montserrat",
+      "size": "16px",
+      "fontWeight": "500",
+      "lineHeight": "29.7143px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 690
+    },
+    {
+      "tag": "h5",
+      "family": "Inter",
+      "size": "14px",
+      "fontWeight": "600",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 539
+    },
+    {
+      "tag": "a",
+      "family": "Inter",
+      "size": "16px",
+      "fontWeight": "600",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 462
+    },
+    {
+      "tag": "p",
+      "family": "Montserrat",
+      "size": "16px",
+      "fontWeight": "500",
+      "lineHeight": "29.7143px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 306
+    },
+    {
+      "tag": "b",
+      "family": "Inter",
+      "size": "14px",
+      "fontWeight": "700",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 281
+    },
+    {
+      "tag": "span",
+      "family": "Montserrat",
+      "size": "16px",
+      "fontWeight": "500",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 244
+    },
+    {
+      "tag": "div",
+      "family": "Inter",
+      "size": "14px",
+      "fontWeight": "400",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 242
+    },
+    {
+      "tag": "a",
+      "family": "Racing Sans One",
+      "size": "15px",
+      "fontWeight": "400",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 221
+    },
+    {
+      "tag": "a",
+      "family": "Racing Sans One",
+      "size": "18px",
+      "fontWeight": "400",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 221
+    },
+    {
+      "tag": "a",
+      "family": "Montserrat",
+      "size": "16px",
+      "fontWeight": "500",
+      "lineHeight": "29.7143px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 207
+    },
+    {
+      "tag": "span",
+      "family": "Montserrat",
+      "size": "14px",
+      "fontWeight": "500",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 187
+    },
+    {
+      "tag": "span",
+      "family": "Montserrat",
+      "size": "12px",
+      "fontWeight": "500",
+      "lineHeight": "15.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 172
+    },
+    {
+      "tag": "span",
+      "family": "Montserrat",
+      "size": "14px",
+      "fontWeight": "700",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 154
+    },
+    {
+      "tag": "label",
+      "family": "Montserrat",
+      "size": "16px",
+      "fontWeight": "500",
+      "lineHeight": "29.7143px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 112
+    },
+    {
+      "tag": "span",
+      "family": "Montserrat",
+      "size": "14px",
+      "fontWeight": "700",
+      "lineHeight": "48px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 110
+    },
+    {
+      "tag": "h6",
+      "family": "Racing Sans One",
+      "size": "18px",
+      "fontWeight": "400",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 94
+    },
+    {
+      "tag": "h1",
+      "family": "Racing Sans One",
+      "size": "30px",
+      "fontWeight": "400",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 90
+    },
+    {
+      "tag": "span",
+      "family": "Montserrat",
+      "size": "16px",
+      "fontWeight": "500",
+      "lineHeight": "29.7143px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 88
+    },
+    {
+      "tag": "span",
+      "family": "Racing Sans One",
+      "size": "43px",
+      "fontWeight": "400",
+      "lineHeight": "51.6px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 86
+    },
+    {
+      "tag": "figcaption",
+      "family": "Montserrat",
+      "size": "14.4px",
+      "fontWeight": "500",
+      "lineHeight": "26.7429px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 68
+    },
+    {
+      "tag": "a",
+      "family": "Montserrat",
+      "size": "12px",
+      "fontWeight": "700",
+      "lineHeight": "22.2857px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 66
+    },
+    {
+      "tag": "strong",
+      "family": "Montserrat",
+      "size": "16px",
+      "fontWeight": "700",
+      "lineHeight": "29.7143px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 65
+    },
+    {
+      "tag": "h4",
+      "family": "Roboto",
+      "size": "32px",
+      "fontWeight": "700",
+      "lineHeight": "38.4px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 53
+    },
+    {
+      "tag": "p",
+      "family": "Montserrat",
+      "size": "16px",
+      "fontWeight": "500",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 49
+    },
+    {
+      "tag": "h4",
+      "family": "Racing Sans One",
+      "size": "32px",
+      "fontWeight": "400",
+      "lineHeight": "38.4px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 48
+    },
+    {
+      "tag": "div",
+      "family": "-apple-system",
+      "size": "12px",
+      "fontWeight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 40
+    },
+    {
+      "tag": "span",
+      "family": "Inter",
+      "size": "18px",
+      "fontWeight": "600",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 37
+    },
+    {
+      "tag": "td",
+      "family": "Montserrat",
+      "size": "16px",
+      "fontWeight": "500",
+      "lineHeight": "29.7143px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 33
+    },
+    {
+      "tag": "span",
+      "family": "Montserrat",
+      "size": "16px",
+      "fontWeight": "500",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "weight": 32
+    },
+    {
+      "tag": "span",
+      "family": "Racing Sans One",
+      "size": "18px",
+      "fontWeight": "400",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 30
+    },
+    {
+      "tag": "span",
+      "family": "Inter",
+      "size": "18px",
+      "fontWeight": "700",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "weight": 30
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#EF4D48",
+      "color": "#FFFFFF",
+      "radius": "0px",
+      "padding": "17px 38px",
+      "font": "Montserrat 500 16px",
+      "transform": "uppercase",
+      "count": 151
+    },
+    {
+      "bg": "#3897F0",
+      "color": "#FFFFFF",
+      "radius": "4px",
+      "padding": "0px",
+      "font": "-apple-system 400 14px",
+      "transform": "uppercase",
+      "count": 1
+    },
+    {
+      "bg": "#EF4D48",
+      "color": "#FFFFFF",
+      "radius": "0px",
+      "padding": "0px 8px",
+      "font": "Montserrat 500 16px",
+      "transform": "uppercase",
+      "count": 1
+    },
+    {
+      "bg": "#32373C",
+      "color": "#FFFFFF",
+      "radius": "0px",
+      "padding": "8px 16px",
+      "font": "Montserrat 500 16px",
+      "transform": "none",
+      "count": 1
+    },
+    {
+      "bg": "#128C7E",
+      "color": "#FFFFFF",
+      "radius": "25px",
+      "padding": "10px 25px",
+      "font": "Montserrat 500 16px",
+      "transform": "uppercase",
+      "count": 1
+    },
+    {
+      "bg": "#EF4D48",
+      "color": "#FFFFFF",
+      "radius": "2px",
+      "padding": "10px 15px",
+      "font": "Montserrat 500 16px",
+      "transform": "uppercase",
+      "count": 1
+    }
+  ],
+  "perPage": {
+    "home": {
+      "sampleTags": {
+        "h3": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "lineHeight": "19.5px",
+          "color": "#2B161B"
+        },
+        "h4": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "26px",
+          "fontWeight": "400",
+          "lineHeight": "31.2px",
+          "color": "#2B161B"
+        },
+        "h5": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "43px",
+          "fontWeight": "400",
+          "lineHeight": "51.6px",
+          "color": "#2B161B"
+        },
+        "h6": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22.5px",
+          "color": "#2B161B"
+        },
+        "p": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "500",
+          "lineHeight": "22.2857px",
+          "color": "#453E3E"
+        },
+        "a": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#EF4D48"
+        },
+        ".elementor-heading-title": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22.5px",
+          "color": "#2B161B"
+        },
+        ".elementor-nav-menu a": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "26px",
+          "color": "#D90700"
+        },
+        "body": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        }
+      },
+      "topTextColors": [
+        {
+          "value": "#453E3E",
+          "weight": 1720
+        },
+        {
+          "value": "#777777",
+          "weight": 550
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 275
+        },
+        {
+          "value": "#DDDDDD",
+          "weight": 244
+        },
+        {
+          "value": "#2B161B",
+          "weight": 148
+        },
+        {
+          "value": "#F2F2F2",
+          "weight": 90
+        }
+      ],
+      "topBgColors": [
+        {
+          "value": "#FFFFFF",
+          "weight": 1182
+        },
+        {
+          "value": "#000000",
+          "weight": 628
+        },
+        {
+          "value": "#D90700",
+          "weight": 78
+        },
+        {
+          "value": "#000000@0.1",
+          "weight": 22
+        },
+        {
+          "value": "#00A0D2",
+          "weight": 17
+        },
+        {
+          "value": "#DE4141",
+          "weight": 16
+        }
+      ]
+    },
+    "koleksi": {
+      "sampleTags": {
+        "h2": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "20.8px",
+          "color": "#2B161B"
+        },
+        "h4": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "43px",
+          "fontWeight": "400",
+          "lineHeight": "51.6px",
+          "color": "#2B161B"
+        },
+        "h5": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        "p": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "color": "#DDDDDD"
+        },
+        "a": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#EF4D48"
+        },
+        ".elementor-heading-title": {
+          "fontFamily": "Roboto, sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "38.4px",
+          "color": "#DE4141"
+        },
+        ".elementor-nav-menu a": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "26px",
+          "color": "#FFFFFF"
+        },
+        "body": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        }
+      },
+      "topTextColors": [
+        {
+          "value": "#2B161B",
+          "weight": 1596
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 875
+        },
+        {
+          "value": "#453E3E",
+          "weight": 643
+        },
+        {
+          "value": "#DDDDDD",
+          "weight": 244
+        },
+        {
+          "value": "#F2F2F2",
+          "weight": 90
+        },
+        {
+          "value": "#DE4141",
+          "weight": 56
+        }
+      ],
+      "topBgColors": [
+        {
+          "value": "#FFFFFF",
+          "weight": 18151
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 944
+        },
+        {
+          "value": "#000000",
+          "weight": 628
+        },
+        {
+          "value": "#D90700",
+          "weight": 78
+        },
+        {
+          "value": "#000000@0.1",
+          "weight": 22
+        },
+        {
+          "value": "#00A0D2",
+          "weight": 17
+        }
+      ]
+    },
+    "koleksi-goda": {
+      "sampleTags": {
+        "h2": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "20.8px",
+          "color": "#2B161B"
+        },
+        "h5": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        "p": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "lineHeight": "27.8571px",
+          "color": "#453E3E"
+        },
+        "a": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#EF4D48"
+        },
+        ".elementor-heading-title": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "lineHeight": "39px",
+          "color": "#2B161B"
+        },
+        ".elementor-nav-menu a": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "26px",
+          "color": "#FFFFFF"
+        },
+        "body": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        }
+      },
+      "topTextColors": [
+        {
+          "value": "#DDDDDD",
+          "weight": 244
+        },
+        {
+          "value": "#2B161B",
+          "weight": 215
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 182
+        },
+        {
+          "value": "#453E3E",
+          "weight": 116
+        },
+        {
+          "value": "#F2F2F2",
+          "weight": 90
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 29
+        }
+      ],
+      "topBgColors": [
+        {
+          "value": "#FFFFFF",
+          "weight": 3830
+        },
+        {
+          "value": "#000000",
+          "weight": 628
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 144
+        },
+        {
+          "value": "#D90700",
+          "weight": 78
+        },
+        {
+          "value": "#000000@0.1",
+          "weight": 22
+        },
+        {
+          "value": "#00A0D2",
+          "weight": 17
+        }
+      ]
+    },
+    "product-list": {
+      "sampleTags": {
+        "h2": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "26px",
+          "fontWeight": "400",
+          "lineHeight": "39px",
+          "color": "#453E3E"
+        },
+        "h3": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "42px",
+          "fontWeight": "400",
+          "lineHeight": "54.6px",
+          "color": "#2B161B"
+        },
+        "h5": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        "p": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "color": "#453E3E"
+        },
+        "a": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#EF4D48"
+        },
+        ".elementor-heading-title": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        ".elementor-nav-menu a": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "26px",
+          "color": "#FFFFFF"
+        },
+        "body": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        }
+      },
+      "topTextColors": [
+        {
+          "value": "#453E3E",
+          "weight": 320
+        },
+        {
+          "value": "#DDDDDD",
+          "weight": 244
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 164
+        },
+        {
+          "value": "#2B161B",
+          "weight": 153
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 94
+        },
+        {
+          "value": "#F2F2F2",
+          "weight": 90
+        }
+      ],
+      "topBgColors": [
+        {
+          "value": "#FFFFFF",
+          "weight": 3393
+        },
+        {
+          "value": "#000000",
+          "weight": 628
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 100
+        },
+        {
+          "value": "#D90700",
+          "weight": 78
+        },
+        {
+          "value": "#000000@0.1",
+          "weight": 22
+        },
+        {
+          "value": "#00A0D2",
+          "weight": 17
+        }
+      ]
+    },
+    "product-detail": {
+      "sampleTags": {
+        "h1": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "color": "#2B161B"
+        },
+        "h2": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "31.2px",
+          "color": "#2B161B"
+        },
+        "h5": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        "p": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        },
+        "a": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#EF4D48"
+        },
+        ".elementor-heading-title": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        ".elementor-nav-menu a": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "26px",
+          "color": "#FFFFFF"
+        },
+        "body": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        }
+      },
+      "topTextColors": [
+        {
+          "value": "#453E3E",
+          "weight": 456
+        },
+        {
+          "value": "#DDDDDD",
+          "weight": 244
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 90
+        },
+        {
+          "value": "#F2F2F2",
+          "weight": 90
+        },
+        {
+          "value": "#2B161B",
+          "weight": 44
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 24
+        }
+      ],
+      "topBgColors": [
+        {
+          "value": "#FFFFFF",
+          "weight": 4224
+        },
+        {
+          "value": "#000000",
+          "weight": 628
+        },
+        {
+          "value": "#D90700",
+          "weight": 78
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 24
+        },
+        {
+          "value": "#000000@0.1",
+          "weight": 22
+        },
+        {
+          "value": "#00A0D2",
+          "weight": 17
+        }
+      ]
+    },
+    "showroom": {
+      "sampleTags": {
+        "h5": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        "p": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "color": "#DDDDDD"
+        },
+        "a": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#EF4D48"
+        },
+        ".elementor-heading-title": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        ".elementor-nav-menu a": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "26px",
+          "color": "#FFFFFF"
+        },
+        "body": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        }
+      },
+      "topTextColors": [
+        {
+          "value": "#DDDDDD",
+          "weight": 244
+        },
+        {
+          "value": "#F2F2F2",
+          "weight": 90
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 48
+        },
+        {
+          "value": "#444444",
+          "weight": 17
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 15
+        },
+        {
+          "value": "#222222",
+          "weight": 11
+        }
+      ],
+      "topBgColors": [
+        {
+          "value": "#000000",
+          "weight": 628
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 414
+        },
+        {
+          "value": "#D90700",
+          "weight": 78
+        },
+        {
+          "value": "#000000@0.1",
+          "weight": 22
+        },
+        {
+          "value": "#00A0D2",
+          "weight": 17
+        }
+      ]
+    },
+    "tentang-kami": {
+      "sampleTags": {
+        "h2": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "42px",
+          "fontWeight": "600",
+          "lineHeight": "46px",
+          "color": "#FFFFFF"
+        },
+        "h3": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "lineHeight": "30px",
+          "color": "#000000"
+        },
+        "h5": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        "p": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "20px",
+          "color": "#BDBDBD"
+        },
+        "a": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#EF4D48"
+        },
+        ".elementor-heading-title": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "42px",
+          "fontWeight": "600",
+          "lineHeight": "46px",
+          "color": "#FFFFFF"
+        },
+        ".elementor-nav-menu a": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "26px",
+          "color": "#FFFFFF"
+        },
+        "body": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        }
+      },
+      "topTextColors": [
+        {
+          "value": "#4B4F58",
+          "weight": 909
+        },
+        {
+          "value": "#F2F2F2",
+          "weight": 298
+        },
+        {
+          "value": "#DDDDDD",
+          "weight": 244
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 63
+        },
+        {
+          "value": "#000000",
+          "weight": 30
+        },
+        {
+          "value": "#444444",
+          "weight": 17
+        }
+      ],
+      "topBgColors": [
+        {
+          "value": "#000000",
+          "weight": 628
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 414
+        },
+        {
+          "value": "#D90700",
+          "weight": 94
+        },
+        {
+          "value": "#000000@0.1",
+          "weight": 22
+        },
+        {
+          "value": "#00A0D2",
+          "weight": 17
+        }
+      ]
+    },
+    "kontak-kami": {
+      "sampleTags": {
+        "h2": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "42px",
+          "fontWeight": "600",
+          "lineHeight": "46px",
+          "color": "#FFFFFF"
+        },
+        "h3": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "30px",
+          "color": "#FFFFFF"
+        },
+        "h5": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        "p": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "20px",
+          "color": "#BDBDBD"
+        },
+        "a": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#EF4D48"
+        },
+        ".elementor-heading-title": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "42px",
+          "fontWeight": "600",
+          "lineHeight": "46px",
+          "color": "#FFFFFF"
+        },
+        ".elementor-nav-menu a": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "26px",
+          "color": "#FFFFFF"
+        },
+        "body": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        }
+      },
+      "topTextColors": [
+        {
+          "value": "#F2F2F2",
+          "weight": 276
+        },
+        {
+          "value": "#DDDDDD",
+          "weight": 244
+        },
+        {
+          "value": "#F9F9F9",
+          "weight": 164
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 101
+        },
+        {
+          "value": "#444444",
+          "weight": 17
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 15
+        }
+      ],
+      "topBgColors": [
+        {
+          "value": "#000000",
+          "weight": 628
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 414
+        },
+        {
+          "value": "#D90700",
+          "weight": 78
+        },
+        {
+          "value": "#000000@0.1",
+          "weight": 22
+        },
+        {
+          "value": "#00A0D2",
+          "weight": 17
+        }
+      ]
+    },
+    "auto-evers": {
+      "sampleTags": {
+        "h3": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "43px",
+          "fontWeight": "400",
+          "lineHeight": "51.6px",
+          "color": "#2B161B"
+        },
+        "h4": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "lineHeight": "38.4px",
+          "color": "#2B161B"
+        },
+        "h5": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        "p": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "21px",
+          "color": "#777777"
+        },
+        "a": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#EF4D48"
+        },
+        ".elementor-heading-title": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "lineHeight": "38.4px",
+          "color": "#2B161B"
+        },
+        ".elementor-nav-menu a": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "26px",
+          "color": "#FFFFFF"
+        },
+        "body": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        }
+      },
+      "topTextColors": [
+        {
+          "value": "#777777",
+          "weight": 550
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 275
+        },
+        {
+          "value": "#DDDDDD",
+          "weight": 244
+        },
+        {
+          "value": "#F2F2F2",
+          "weight": 90
+        },
+        {
+          "value": "#ADADAD",
+          "weight": 86
+        },
+        {
+          "value": "#000000",
+          "weight": 68
+        }
+      ],
+      "topBgColors": [
+        {
+          "value": "#000000",
+          "weight": 628
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 414
+        },
+        {
+          "value": "#D90700",
+          "weight": 78
+        },
+        {
+          "value": "#000000@0.1",
+          "weight": 22
+        },
+        {
+          "value": "#00A0D2",
+          "weight": 17
+        }
+      ]
+    },
+    "compare": {
+      "sampleTags": {
+        "h5": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        "p": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "color": "#DDDDDD"
+        },
+        "a": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#EF4D48"
+        },
+        ".elementor-heading-title": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        ".elementor-nav-menu a": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "26px",
+          "color": "#FFFFFF"
+        },
+        "body": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        }
+      },
+      "topTextColors": [
+        {
+          "value": "#DDDDDD",
+          "weight": 244
+        },
+        {
+          "value": "#F2F2F2",
+          "weight": 90
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 56
+        },
+        {
+          "value": "#453E3E",
+          "weight": 44
+        },
+        {
+          "value": "#444444",
+          "weight": 17
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 15
+        }
+      ],
+      "topBgColors": [
+        {
+          "value": "#000000",
+          "weight": 628
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 414
+        },
+        {
+          "value": "#D90700",
+          "weight": 78
+        },
+        {
+          "value": "#000000@0.1",
+          "weight": 22
+        },
+        {
+          "value": "#00A0D2",
+          "weight": 17
+        }
+      ]
+    },
+    "artikel": {
+      "sampleTags": {
+        "h1": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "color": "#2B161B"
+        },
+        "h3": {
+          "fontFamily": "\"Racing Sans One\", display",
+          "fontSize": "21.44px",
+          "fontWeight": "500",
+          "lineHeight": "27.872px",
+          "color": "#2B161B"
+        },
+        "h5": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        "p": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        },
+        "a": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#EF4D48"
+        },
+        ".elementor-heading-title": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "color": "#F2F2F2"
+        },
+        ".elementor-nav-menu a": {
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "26px",
+          "color": "#FFFFFF"
+        },
+        "body": {
+          "fontFamily": "Montserrat, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "29.7143px",
+          "color": "#453E3E"
+        }
+      },
+      "topTextColors": [
+        {
+          "value": "#453E3E",
+          "weight": 3104
+        },
+        {
+          "value": "#DDDDDD",
+          "weight": 244
+        },
+        {
+          "value": "#2B161B",
+          "weight": 98
+        },
+        {
+          "value": "#F2F2F2",
+          "weight": 90
+        },
+        {
+          "value": "#EF4D48",
+          "weight": 68
+        },
+        {
+          "value": "#FFFFFF",
+          "weight": 56
+        }
+      ],
+      "topBgColors": [
+        {
+          "value": "#FFFFFF",
+          "weight": 3750
+        },
+        {
+          "value": "#000000",
+          "weight": 628
+        },
+        {
+          "value": "#FAFAFA",
+          "weight": 302
+        },
+        {
+          "value": "#D90700",
+          "weight": 78
+        },
+        {
+          "value": "#000000@0.1",
+          "weight": 22
+        },
+        {
+          "value": "#00A0D2",
+          "weight": 17
+        }
+      ]
+    }
+  }
+}

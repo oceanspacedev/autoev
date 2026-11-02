@@ -1,0 +1,273 @@
+{
+ "name": "Auto EV",
+ "tagline": "Autohemat Autogaya",
+ "logo": "/img/brand/logo-putih.webp",
+ "icon": "/img/brand/icon.webp",
+ "evIllustration": "/img/beranda/ilustrasi-ev.webp",
+ "whatsapp": "6287738417771",
+ "phone": "+62 877-3841-7771",
+ "emails": [
+  "autoev.id@gmail.com",
+  "marketingautoev@gmail.com"
+ ],
+ "headOffice": {
+  "address": "Rukan Golf Island Blok I No 27-28, Jl Pantai Indah Kapuk – 14460",
+  "hours": "Senin–Sabtu 08.00–17.00 · Minggu tutup",
+  "mapEmbed": "https://maps.google.com/maps?q=Rukan%20Golf%20Island%20Blok%20I%20No%2027-28%20Jl%20Pantai%20Indah%20Kapuk%20%E2%80%93%2014460&t=m&z=13&output=embed&iwloc=near"
+ },
+ "socials": [
+  {
+   "name": "Instagram",
+   "handle": "@autoev.indonesia",
+   "url": "https://instagram.com/autoev.indonesia/"
+  },
+  {
+   "name": "TikTok",
+   "handle": "@auto_ev",
+   "url": "https://www.tiktok.com/@auto_ev"
+  }
+ ],
+ "perks": [
+  {
+   "title": "DP 0%",
+   "text": "Cicilan mudah"
+  },
+  {
+   "title": "Garansi 1 tahun",
+   "text": "Aki, dinamo & service"
+  },
+  {
+   "title": "Gratis kirim",
+   "text": "Tanpa biaya pengiriman"
+  }
+ ],
+ "about": "Pertama di Indonesia kami hadir untuk berkomitmen dalam memberikan solusi transportasi yang ramah lingkungan, EV atau Electric Vehicle bertujuan untuk mengurangi emisi gas yang dapat menyebabkan polusi udara.",
+ "evBenefits": [
+  {
+   "title": "Perawatan Murah Mudah",
+   "text": "Tidak seperti motor konvensional, sepeda listrik tidak perlu lagi menggantikan oli maupun sparepart di setiap bulannya, dan komponen motor listrik juga lebih sedikit, jadi akan lebih hemat di kantong anda."
+  },
+  {
+   "title": "Ramah Lingkungan",
+   "text": "Alasan anda harus memiliki sepeda listrik adalah karena ramah lingkungan. Bumi yang kita tempati ini tidak hanya untuk anda atau keluarga, pikirkan generasi penerus anda, dan memang sepeda listrik EV ini jelas ramah lingkungan, karena menggunakan teknologi listrik dan tidak mengeluarkan emisi gas yang dapa menyebabkan pencemaran udara di bumi ini."
+  },
+  {
+   "title": "Tanpa Pakai Bahan Bakar Minyak",
+   "text": "Praktis dan tidak perlu mengantri di POM bensin karena kita bisa langsung cas sendiri di rumah tanpa ribet."
+  },
+  {
+   "title": "Mesin Halus & Tidak Berisik",
+   "text": "Sekali lagi, sepeda listrik berbeda dengan motor konvensional, karena tidak memiliki knalpot, artinya tidak akan berisik saat berkendara."
+  }
+ ],
+ "services": [
+  {
+   "title": "Showroom",
+   "text": "Segera temukan sepeda listrik impian mu di SHOWROOM kami. Kami menyediakan berbagai macam model dan harga yang sesuai dengan keinginan dan budget Anda. Datang dan dapatkan sepeda listrik terbaik yang tepat untuk Anda."
+  },
+  {
+   "title": "SALES",
+   "text": "Dapatkan penawaran terbaik hanya di SALES kami! Kami menawarkan berbagai pilihan sepeda listrik dengan harga yang kompetitif dan kualitas yang terbaik. Jangan lewatkan kesempatan ini untuk memiliki sepeda listrik impian Anda."
+  },
+  {
+   "title": "SPAREPARTS",
+   "text": "Beli Sparepart Sepeda Listrik di sini! Kami menyediakan semua yang Anda butuhkan untuk membuat sepeda listrik Anda tetap berjalan: baterai, motor, kontrol, charger, dan lainnya. Pesan sekarang dan dapatkan pengiriman cepat dengan harga terbaik!"
+  },
+  {
+   "title": "SERVICE",
+   "text": "SERVICE kami siap untuk membantu Anda dalam semua masalah sepeda listrik Anda. Kami memiliki tim ahli yang siap untuk membantu Anda dan menyediakan layanan purna jual yang terbaik. Datang dan rasakan layanan terbaik dari kami."
+  }
+ ],
+ "testimonials": [
+  {
+   "source": "Google",
+   "name": "Dayy Chan",
+   "date": "2024-03-21",
+   "rating": 5,
+   "text": "Sepeda listrik nya mantap gais"
+  },
+  {
+   "source": "Google",
+   "name": "Epafr04",
+   "date": "2024-02-05",
+   "rating": 5,
+   "text": "Pelayanan nya bagus dan harga terjangkau"
+  },
+  {
+   "source": "Google",
+   "name": "Trisnawati Wati",
+   "date": "2024-02-05",
+   "rating": 5,
+   "text": "Pelayanan nya bagus"
+  },
+  {
+   "source": "Google",
+   "name": "Aira Humaira",
+   "date": "2024-01-07",
+   "rating": 5,
+   "text": "Bagus ..... Banyak pilihannya juga...👍👍👍👍👍👍"
+  },
+  {
+   "source": "Google",
+   "name": "Yona Putri",
+   "date": "2024-01-05",
+   "rating": 5,
+   "text": "bagusss"
+  },
+  {
+   "source": "Google",
+   "name": "Rosi A01",
+   "date": "2024-01-04",
+   "rating": 5,
+   "text": "Pelayanan sangat bagus dan area bersih"
+  },
+  {
+   "source": "Google",
+   "name": "Yanti Cute",
+   "date": "2024-01-04",
+   "rating": 5,
+   "text": "Promo japri mantap"
+  },
+  {
+   "source": "Google",
+   "name": "ismi fauziah",
+   "date": "2024-01-03",
+   "rating": 5,
+   "text": "Promò dan pelayanannya mntap"
+  }
+ ],
+ "brands": [
+  {
+   "name": "EXOTIC",
+   "count": 28
+  },
+  {
+   "name": "UWINFLY",
+   "count": 18
+  },
+  {
+   "name": "GODA",
+   "count": 18
+  },
+  {
+   "name": "GENIO",
+   "count": 13
+  },
+  {
+   "name": "OFERO",
+   "count": 9
+  },
+  {
+   "name": "PACIFIC",
+   "count": 8
+  },
+  {
+   "name": "SELIS",
+   "count": 7
+  },
+  {
+   "name": "UOU",
+   "count": 6
+  },
+  {
+   "name": "MEVI",
+   "count": 5
+  },
+  {
+   "name": "UNITED",
+   "count": 4
+  },
+  {
+   "name": "SEVENBOT",
+   "count": 2
+  },
+  {
+   "name": "RUBICK",
+   "count": 2
+  },
+  {
+   "name": "VIAR",
+   "count": 2
+  }
+ ],
+ "customerGallery": [
+  {
+   "src": "/img/tentang/pelanggan-1.webp",
+   "alt": "Pelanggan Auto EV 1"
+  },
+  {
+   "src": "/img/tentang/pelanggan-2.webp",
+   "alt": "Pelanggan Auto EV 2"
+  },
+  {
+   "src": "/img/tentang/pelanggan-3.webp",
+   "alt": "Pelanggan Auto EV 3"
+  },
+  {
+   "src": "/img/tentang/pelanggan-4.webp",
+   "alt": "Pelanggan Auto EV 4"
+  },
+  {
+   "src": "/img/tentang/pelanggan-5.webp",
+   "alt": "Pelanggan Auto EV 5"
+  },
+  {
+   "src": "/img/tentang/pelanggan-6.webp",
+   "alt": "Pelanggan Auto EV 6"
+  },
+  {
+   "src": "/img/tentang/pelanggan-7.webp",
+   "alt": "Pelanggan Auto EV 7"
+  },
+  {
+   "src": "/img/tentang/pelanggan-8.webp",
+   "alt": "Pelanggan Auto EV 8"
+  },
+  {
+   "src": "/img/tentang/pelanggan-9.webp",
+   "alt": "Pelanggan Auto EV 9"
+  },
+  {
+   "src": "/img/tentang/pelanggan-10.webp",
+   "alt": "Pelanggan Auto EV 10"
+  },
+  {
+   "src": "/img/tentang/pelanggan-11.webp",
+   "alt": "Pelanggan Auto EV 11"
+  },
+  {
+   "src": "/img/tentang/pelanggan-12.webp",
+   "alt": "Pelanggan Auto EV 12"
+  },
+  {
+   "src": "/img/tentang/pelanggan-13.webp",
+   "alt": "Pelanggan Auto EV 13"
+  },
+  {
+   "src": "/img/tentang/pelanggan-14.webp",
+   "alt": "Pelanggan Auto EV 14"
+  },
+  {
+   "src": "/img/tentang/pelanggan-15.webp",
+   "alt": "Pelanggan Auto EV 15"
+  },
+  {
+   "src": "/img/tentang/pelanggan-16.webp",
+   "alt": "Pelanggan Auto EV 16"
+  }
+ ],
+ "communityPhotos": [
+  {
+   "src": "/img/komunitas/foto-1.webp",
+   "caption": "Komunitas Auto EVers"
+  },
+  {
+   "src": "/img/komunitas/foto-2.webp",
+   "caption": "Sunmori bareng teman nongkrong"
+  },
+  {
+   "src": "/img/komunitas/foto-3.webp",
+   "caption": "Grand opening untuk auto evers cirebon"
+  }
+ ]
+}

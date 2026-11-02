@@ -1,0 +1,18 @@
+[
+  { "name": "AUTO EV CILEDUG", "address": "Jl. Merdeka Barat No.64, Ciledug Kulon, Kec. Ciledug, Kabupaten Cirebon, Jawa Barat 45188", "city": "Kabupaten Cirebon", "province": "Jawa Barat", "hours": "09.00–20.00" },
+  { "name": "AUTO EV CISOKA", "address": "Jl. Raya Cisoka Adiyasa No.14, Samping Niceso, Sukatani, Kec. Cisoka, Kabupaten Tangerang, Banten 15730", "city": "Kabupaten Tangerang", "province": "Banten", "hours": "09.00–20.00" },
+  { "name": "AUTO EV INDRAMAYU", "address": "Jl. Jend. Sudirman No.42, Lemahabang, Kec. Indramayu, Kabupaten Indramayu, Jawa Barat 45212", "city": "Kabupaten Indramayu", "province": "Jawa Barat", "hours": "09.00–20.00" },
+  { "name": "AUTO EV JATIWANGI", "address": "Jl. Ahmad Yani No.127, Sutawangi, Kec. Jatiwangi, Kabupaten Majalengka, Jawa Barat 45454", "city": "Kabupaten Majalengka", "province": "Jawa Barat", "hours": "09.00–20.00" },
+  { "name": "AUTO EV KUDUS", "address": "Jl. Sunan Kudus No.185-211, Pejaten, Kerjasan, Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59315", "city": "Kabupaten Kudus", "province": "Jawa Tengah", "hours": "09.00–20.00" },
+  { "name": "AUTO EV MAJALAYA", "address": "Jl Raya Cicalengka Pajagalan No 21 Majakerta, Majalaya Kab. Bandung", "city": "Kabupaten Bandung", "province": "Jawa Barat", "hours": "09.00–20.00" },
+  { "name": "AUTO EV PAMANUKAN", "address": "Pamanukan, Kec. Pamanukan, Kabupaten Subang, Jawa Barat 41254", "city": "Kabupaten Subang", "province": "Jawa Barat", "hours": "09.00–20.00" },
+  { "name": "AUTO EV PASIR KOJA", "address": "Jl. Terusan Pasirkoja No.65, Panjunan, Kec. Bojongloa Kaler, Kota Bandung, Jawa Barat 40242", "city": "Kota Bandung", "province": "Jawa Barat", "hours": "09.00–20.00" },
+  { "name": "AUTO EV PEKALONGAN", "address": "Pekalongan, Kradenan, Kec. Pekalongan Sel, Kota Pekalongan, Jawa Tengah 51132", "city": "Kota Pekalongan", "province": "Jawa Tengah", "hours": "09.00–20.00" },
+  { "name": "AUTO EV PETRATEAN", "address": "Jl. Petratean No.11, Pekalipan, Kec. Pekalipan, Kota Cirebon, Jawa Barat 45117", "city": "Kota Cirebon", "province": "Jawa Barat", "hours": "09.00–20.00" },
+  { "name": "AUTO EV PURWADADI", "address": "Purwadadi Bar., Kec. Purwadadi, Kabupaten Subang, Jawa Barat 41261", "city": "Kabupaten Subang", "province": "Jawa Barat", "hours": "09.00–20.00" },
+  { "name": "AUTO EV RENGAS DENGKLOK", "address": "Jl. Raya R.Dengklok, R.Dengklok Sel., Kec. R.Dengklok, Karawang, Jawa Barat 41352", "city": "Kabupaten Karawang", "province": "Jawa Barat", "hours": "09.00–20.00" },
+  { "name": "AUTO EV SINDANG", "address": "Cipeujeuh Wetan, Kec. Lemahabang, Kabupaten Cirebon, Jawa Barat", "city": "Kabupaten Cirebon", "province": "Jawa Barat", "hours": "09.00–20.00" },
+  { "name": "AUTO EV TELAGASARI", "address": "Jl. Raya Syeh Quro Dusun Krajan No.01, Talagasari, Kec. Talagasari, Karawang, Jawa Barat", "city": "Kabupaten Karawang", "province": "Jawa Barat", "hours": "09.00–20.00" },
+  { "name": "AUTO EV TIGARAKSA", "address": "Jl. Syeh Mubarok No.37, RT.9/RW.3, Tigaraksa, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720", "city": "Kabupaten Tangerang", "province": "Banten", "hours": "09.00–20.00" },
+  { "name": "OFERO STORE CISOKA", "address": "Jl. Raya Cisoka Adiyasa No. 14, Sukatani, Cisoka", "city": "Kabupaten Tangerang", "province": "Banten", "hours": "09.00–20.00" }
+]

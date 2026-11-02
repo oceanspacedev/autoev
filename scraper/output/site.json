@@ -1,0 +1,263 @@
+{
+  "siteName": "Auto EV",
+  "logos": [
+    {
+      "src": "https://autoev.co.id/wp-content/uploads/2023/08/AUTOEV-LOGO-PUTIH-TAG-PX.png",
+      "alt": "AUTOEV LOGO",
+      "location": "header"
+    },
+    {
+      "src": "https://autoev.co.id/wp-content/uploads/2023/08/AUTOEV-LOGO-PUTIH-TAG-PX.png",
+      "alt": "AUTOEV LOGO",
+      "location": "footer"
+    }
+  ],
+  "favicon": [
+    {
+      "href": "https://autoev.co.id/wp-content/uploads/2023/08/cropped-Tumbnail-Auto-EV-1-32x32.png",
+      "sizes": "32x32"
+    },
+    {
+      "href": "https://autoev.co.id/wp-content/uploads/2023/08/cropped-Tumbnail-Auto-EV-1-192x192.png",
+      "sizes": "192x192"
+    }
+  ],
+  "menus": [
+    [
+      {
+        "label": "Home",
+        "href": "https://autoev.co.id/"
+      },
+      {
+        "label": "Koleksi",
+        "href": "https://autoev.co.id/koleksi/"
+      },
+      {
+        "label": "Showroom",
+        "href": "https://autoev.co.id/showroom/"
+      },
+      {
+        "label": "Tentang Kami",
+        "href": "https://autoev.co.id/tentang-kami/"
+      },
+      {
+        "label": "Kontak Kami",
+        "href": "https://autoev.co.id/kontak-kami/"
+      }
+    ]
+  ],
+  "header": {
+    "text": "Home Koleksi Showroom Tentang Kami Kontak Kami Menu Home Koleksi Showroom Tentang Kami Kontak Kami",
+    "links": [
+      {
+        "text": null,
+        "href": "https://autoev.co.id"
+      },
+      {
+        "text": "Home",
+        "href": "https://autoev.co.id/"
+      },
+      {
+        "text": "Koleksi",
+        "href": "https://autoev.co.id/koleksi/"
+      },
+      {
+        "text": "Showroom",
+        "href": "https://autoev.co.id/showroom/"
+      },
+      {
+        "text": "Tentang Kami",
+        "href": "https://autoev.co.id/tentang-kami/"
+      },
+      {
+        "text": "Kontak Kami",
+        "href": "https://autoev.co.id/kontak-kami/"
+      },
+      {
+        "text": "Home",
+        "href": "https://autoev.co.id/"
+      },
+      {
+        "text": "Koleksi",
+        "href": "https://autoev.co.id/koleksi/"
+      },
+      {
+        "text": "Showroom",
+        "href": "https://autoev.co.id/showroom/"
+      },
+      {
+        "text": "Tentang Kami",
+        "href": "https://autoev.co.id/tentang-kami/"
+      },
+      {
+        "text": "Kontak Kami",
+        "href": "https://autoev.co.id/kontak-kami/"
+      }
+    ]
+  },
+  "footer": {
+    "text": "HEAD OFFICE Rukan Golf Island Blok I No 27-28 Jl Pantai Indah Kapuk – 14460 OPERASIONAL Senin-Sabtu: 08:00 – 17:00 Minggu: Tutup HUBUNGI KAMI autoev.id@gmail.com marketingautoev@gmail.com +62 877-3841-7771 @auto_ev @autoev.indonesia TOTAL KUNJUNGAN Views Today : 11 Views Yesterday : 16 Views This Month : 27 Auto EV © 2022 - 2024 All Rights Reserved.",
+    "blocks": [
+      "HEAD OFFICE",
+      "Rukan Golf Island Blok I No 27-28 Jl Pantai Indah Kapuk – 14460",
+      "OPERASIONAL",
+      "HUBUNGI KAMI",
+      "autoev.id@gmail.com",
+      "autoev.id@gmail.com",
+      "marketingautoev@gmail.com",
+      "marketingautoev@gmail.com",
+      "+62 877-3841-7771",
+      "+62 877-3841-7771",
+      "@auto_ev",
+      "@auto_ev",
+      "@autoev.indonesia",
+      "@autoev.indonesia",
+      "TOTAL KUNJUNGAN",
+      "Auto EV © 2022 - 2024 All Rights Reserved."
+    ],
+    "links": [
+      {
+        "text": null,
+        "href": "https://autoev.co.id"
+      },
+      {
+        "text": "autoev.id@gmail.com",
+        "href": "mailto:autoev.id@gmail.com"
+      },
+      {
+        "text": "marketingautoev@gmail.com",
+        "href": "mailto:marketingautoev@gmail.com"
+      },
+      {
+        "text": "+62 877-3841-7771",
+        "href": "tel:+62%20877-3841-7771"
+      },
+      {
+        "text": "@auto_ev",
+        "href": "https://www.tiktok.com/@auto_ev"
+      },
+      {
+        "text": "@autoev.indonesia",
+        "href": "https://instagram.com/autoev.indonesia/"
+      }
+    ],
+    "images": [
+      "https://autoev.co.id/wp-content/uploads/2023/08/AUTOEV-LOGO-PUTIH-TAG-PX.png",
+      "https://autoev.co.id/wp-content/plugins/wps-visitor-counter/styles/image/web/0.gif",
+      "https://autoev.co.id/wp-content/plugins/wps-visitor-counter/styles/image/web/2.gif",
+      "https://autoev.co.id/wp-content/plugins/wps-visitor-counter/styles/image/web/4.gif",
+      "https://autoev.co.id/wp-content/plugins/wps-visitor-counter/styles/image/web/8.gif",
+      "https://autoev.co.id/wp-content/plugins/wps-visitor-counter/styles/image/web/0.gif",
+      "https://autoev.co.id/wp-content/plugins/wps-visitor-counter/styles/image/web/5.gif",
+      "https://autoev.co.id/wp-content/plugins/wps-visitor-counter/counter/views_today.png",
+      "https://autoev.co.id/wp-content/plugins/wps-visitor-counter/counter/views_yesterday.png",
+      "https://autoev.co.id/wp-content/plugins/wps-visitor-counter/counter/views_month.png"
+    ]
+  },
+  "heroSlides": [
+    {
+      "src": "https://autoev.co.id/wp-content/uploads/2024/11/1.-SPEKTA@1x.webp",
+      "alt": "1. SPEKTA@1x"
+    },
+    {
+      "src": "https://autoev.co.id/wp-content/uploads/2024/11/2.-SPAREPART@1x.webp",
+      "alt": "2. SPAREPART@1x"
+    },
+    {
+      "src": "https://autoev.co.id/wp-content/uploads/2024/11/3.-GEMES-WEBSITE@1x.webp",
+      "alt": "3. GEMES WEBSITE@1x"
+    },
+    {
+      "src": "https://autoev.co.id/wp-content/uploads/2024/11/4.-NYENTRIK@1x.webp",
+      "alt": "4. NYENTRIK@1x"
+    },
+    {
+      "src": "https://autoev.co.id/wp-content/uploads/2024/11/5.-MULAI-DARI@1x.webp",
+      "alt": "5. MULAI DARI@1x"
+    },
+    {
+      "src": "https://autoev.co.id/wp-content/uploads/2024/11/6.-SAT-SET@1x.webp",
+      "alt": "6. SAT SET@1x"
+    },
+    {
+      "src": "https://autoev.co.id/wp-content/uploads/2024/11/7.-GRATIS-KIRIM@1x.webp",
+      "alt": "7. GRATIS KIRIM@1x"
+    },
+    {
+      "src": "https://autoev.co.id/wp-content/uploads/2024/11/8.-DISTRIBUTOR@1x.webp",
+      "alt": "8. DISTRIBUTOR@1x"
+    }
+  ],
+  "testimonials": [
+    {
+      "source": "Google",
+      "name": "Dayy Chan",
+      "date": "2024-03-21",
+      "rating": 5,
+      "text": "Sepeda listrik nya mantap gais"
+    },
+    {
+      "source": "Google",
+      "name": "Epafr04",
+      "date": "2024-02-05",
+      "rating": 5,
+      "text": "Pelayanan nya bagus dan harga terjangkau"
+    },
+    {
+      "source": "Google",
+      "name": "Trisnawati Wati",
+      "date": "2024-02-05",
+      "rating": 5,
+      "text": "Pelayanan nya bagus"
+    },
+    {
+      "source": "Google",
+      "name": "Aira Humaira",
+      "date": "2024-01-07",
+      "rating": 5,
+      "text": "Bagus ..... Banyak pilihannya juga...👍👍👍👍👍👍"
+    },
+    {
+      "source": "Google",
+      "name": "Yona Putri",
+      "date": "2024-01-05",
+      "rating": 5,
+      "text": "bagusss"
+    },
+    {
+      "source": "Google",
+      "name": "Rosi A01",
+      "date": "2024-01-04",
+      "rating": 5,
+      "text": "Pelayanan sangat bagus dan area bersih"
+    },
+    {
+      "source": "Google",
+      "name": "Yanti Cute",
+      "date": "2024-01-04",
+      "rating": 5,
+      "text": "Promo japri mantap"
+    },
+    {
+      "source": "Google",
+      "name": "ismi fauziah",
+      "date": "2024-01-03",
+      "rating": 5,
+      "text": "Promò dan pelayanannya mntap"
+    }
+  ],
+  "socialLinks": [
+    "https://www.tiktok.com/@auto_ev",
+    "https://instagram.com/autoev.indonesia/"
+  ],
+  "whatsapp": [
+    "https://api.whatsapp.com/send?phone=6287738417771&text=Hai%20kak%20saya%20tertarik%20dengan%20Sepeda%20Listrik%20ini%2C%20bisa%20dibantu%20kak%3F%20%F0%9F%98%8A"
+  ],
+  "phones": [
+    "+62%20877-3841-7771"
+  ],
+  "emails": [
+    "autoev.id@gmail.com",
+    "marketingautoev@gmail.com"
+  ]
+}

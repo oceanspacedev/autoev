@@ -1,0 +1,3390 @@
+[
+ {
+  "id": 15481,
+  "slug": "uwinfly-t80",
+  "name": "UWINFLY T80",
+  "brand": "UWINFLY",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-t80-1.webp",
+    "alt": "UWINFLY T80",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15480,
+  "slug": "uwinfly-t5",
+  "name": "UWINFLY T5",
+  "brand": "UWINFLY",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-t5-1.webp",
+    "alt": "UWINFLY T5",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15479,
+  "slug": "uwinfly-t3s-pro",
+  "name": "UWINFLY T3S PRO",
+  "brand": "UWINFLY",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-t3s-pro-1.webp",
+    "alt": "UWINFLY T3S PRO",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15478,
+  "slug": "uwinfly-m75",
+  "name": "UWINFLY M75",
+  "brand": "UWINFLY",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-m75-1.webp",
+    "alt": "UWINFLY M75",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15477,
+  "slug": "uwinfly-m70",
+  "name": "UWINFLY M70",
+  "brand": "UWINFLY",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-m70-1.webp",
+    "alt": "UWINFLY M70",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15476,
+  "slug": "uwinfly-m60",
+  "name": "UWINFLY M60",
+  "brand": "UWINFLY",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-m60-1.webp",
+    "alt": "UWINFLY M60",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15475,
+  "slug": "uwinfly-d60",
+  "name": "UWINFLY D60",
+  "brand": "UWINFLY",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-d60-1.webp",
+    "alt": "UWINFLY D60",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15474,
+  "slug": "uwinfly-d8d",
+  "name": "UWINFLY D8D",
+  "brand": "UWINFLY",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-d8d-1.webp",
+    "alt": "UWINFLY D8D",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15473,
+  "slug": "uwinfly-d7d",
+  "name": "UWINFLY D7D",
+  "brand": "UWINFLY",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-d7d-1.webp",
+    "alt": "UWINFLY D7D",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15472,
+  "slug": "sevenbot-m20",
+  "name": "SEVENBOT M20",
+  "brand": "SEVENBOT",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/sevenbot-m20-1.webp",
+    "alt": "SEVENBOT M20",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15471,
+  "slug": "sevenbot-m10",
+  "name": "SEVENBOT M10",
+  "brand": "SEVENBOT",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/sevenbot-m10-1.webp",
+    "alt": "SEVENBOT M10",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15470,
+  "slug": "selis-saturn",
+  "name": "SELIS SATURN",
+  "brand": "SELIS",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/selis-saturn-1.webp",
+    "alt": "SELIS SATURN",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15469,
+  "slug": "selis-neo-scootic",
+  "name": "SELIS NEO SCOOTIC",
+  "brand": "SELIS",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/selis-neo-scootic-1.webp",
+    "alt": "SELIS NEO SCOOTIC",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15468,
+  "slug": "selis-agats",
+  "name": "SELIS AGATS",
+  "brand": "SELIS",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/selis-agats-1.webp",
+    "alt": "SELIS AGATS",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15467,
+  "slug": "rubick-veneto",
+  "name": "RUBICK VENETO",
+  "brand": "RUBICK",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/rubick-veneto-1.webp",
+    "alt": "RUBICK VENETO",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15466,
+  "slug": "rubick-ravena",
+  "name": "RUBICK RAVENA",
+  "brand": "RUBICK",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/rubick-ravena-1.webp",
+    "alt": "RUBICK RAVENA",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15465,
+  "slug": "pacific-syncros-1-0",
+  "name": "PACIFIC SYNCROS 1.0",
+  "brand": "PACIFIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/pacific-syncros-1-0-1.webp",
+    "alt": "PACIFIC SYNCROS 1.0",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15464,
+  "slug": "pacific-asrtrio",
+  "name": "PACIFIC ASRTRIO",
+  "brand": "PACIFIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/pacific-asrtrio-1.webp",
+    "alt": "PACIFIC ASRTRIO",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15463,
+  "slug": "ofero-stareer-2-pro",
+  "name": "OFERO STAREER 2 PRO",
+  "brand": "OFERO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/ofero-stareer-2-pro-1.webp",
+    "alt": "OFERO STAREER 2 PRO",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15462,
+  "slug": "ofero-magical-2",
+  "name": "OFERO MAGICAL 2",
+  "brand": "OFERO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/ofero-magical-2-1.webp",
+    "alt": "OFERO MAGICAL 2",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15461,
+  "slug": "ofero-magical-2-pro",
+  "name": "OFERO MAGICAL 2 PRO",
+  "brand": "OFERO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/ofero-magical-2-pro-1.webp",
+    "alt": "OFERO MAGICAL 2 PRO",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15460,
+  "slug": "ofero-galaxy",
+  "name": "OFERO GALAXY",
+  "brand": "OFERO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/ofero-galaxy-1.webp",
+    "alt": "OFERO GALAXY",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15459,
+  "slug": "ofero-galaxy-2",
+  "name": "OFERO GALAXY 2",
+  "brand": "OFERO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/ofero-galaxy-2-1.webp",
+    "alt": "OFERO GALAXY 2",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15458,
+  "slug": "goda-gd150a",
+  "name": "GODA GD150A",
+  "brand": "GODA",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/goda-gd150a-1.webp",
+    "alt": "GODA GD150A",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15457,
+  "slug": "goda-gd111",
+  "name": "GODA GD111",
+  "brand": "GODA",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/goda-gd111-1.webp",
+    "alt": "GODA GD111",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15456,
+  "slug": "goda-147-d",
+  "name": "GODA 147-D",
+  "brand": "GODA",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/goda-147-d-1.webp",
+    "alt": "GODA 147-D",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15455,
+  "slug": "goda-140ds-new",
+  "name": "GODA 140DS NEW",
+  "brand": "GODA",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/goda-140ds-new-1.webp",
+    "alt": "GODA 140DS NEW",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15454,
+  "slug": "genio-easton-x3",
+  "name": "GENIO EASTON X3",
+  "brand": "GENIO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/genio-easton-x3-1.webp",
+    "alt": "GENIO EASTON X3",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15453,
+  "slug": "genio-easton-sx1",
+  "name": "GENIO EASTON SX1",
+  "brand": "GENIO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/genio-easton-sx1-1.webp",
+    "alt": "GENIO EASTON SX1",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15452,
+  "slug": "genio-attura-g1",
+  "name": "GENIO ATTURA G1",
+  "brand": "GENIO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/genio-attura-g1-1.webp",
+    "alt": "GENIO ATTURA G1",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15451,
+  "slug": "genio-attura-fl2",
+  "name": "GENIO ATTURA FL2",
+  "brand": "GENIO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/genio-attura-fl2-1.webp",
+    "alt": "GENIO ATTURA FL2",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15450,
+  "slug": "genio-attura-e1",
+  "name": "GENIO ATTURA E1",
+  "brand": "GENIO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/genio-attura-e1-1.webp",
+    "alt": "GENIO ATTURA E1",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15449,
+  "slug": "exotic-x-track",
+  "name": "EXOTIC X-TRACK",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-x-track-1.webp",
+    "alt": "EXOTIC X-TRACK",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15448,
+  "slug": "exotic-x-630",
+  "name": "EXOTIC X-630",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-x-630-1.webp",
+    "alt": "EXOTIC X-630",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15447,
+  "slug": "exotic-veloce-v3",
+  "name": "EXOTIC VELOCE V3",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-veloce-v3-1.webp",
+    "alt": "EXOTIC VELOCE V3",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15446,
+  "slug": "exotic-veloce-1-6",
+  "name": "EXOTIC VELOCE 1.6",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-veloce-1-6-1.webp",
+    "alt": "EXOTIC VELOCE 1.6",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15445,
+  "slug": "exotic-stringer-3-5",
+  "name": "EXOTIC STRINGER 3.5",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-stringer-3-5-1.webp",
+    "alt": "EXOTIC STRINGER 3.5",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15444,
+  "slug": "exotic-stringer-3-0",
+  "name": "EXOTIC STRINGER 3.0",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-stringer-3-0-1.webp",
+    "alt": "EXOTIC STRINGER 3.0",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15443,
+  "slug": "exotic-revolve-pro",
+  "name": "EXOTIC REVOLVE PRO",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-revolve-pro-1.webp",
+    "alt": "EXOTIC REVOLVE PRO",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15442,
+  "slug": "exotic-luxor",
+  "name": "EXOTIC LUXOR",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-luxor-1.webp",
+    "alt": "EXOTIC LUXOR",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15441,
+  "slug": "exotic-groza-tx200",
+  "name": "EXOTIC GROZA TX200",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-groza-tx200-1.webp",
+    "alt": "EXOTIC GROZA TX200",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15440,
+  "slug": "exotic-groza-tx150",
+  "name": "EXOTIC GROZA TX150",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-groza-tx150-1.webp",
+    "alt": "EXOTIC GROZA TX150",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15439,
+  "slug": "exotic-groza-tx100",
+  "name": "EXOTIC GROZA TX100",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-groza-tx100-1.webp",
+    "alt": "EXOTIC GROZA TX100",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15438,
+  "slug": "exotic-fastron",
+  "name": "EXOTIC FASTRON",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-fastron-1.webp",
+    "alt": "EXOTIC FASTRON",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15437,
+  "slug": "exotic-fastron-slx-6",
+  "name": "EXOTIC FASTRON SLX-6",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-fastron-slx-6-1.webp",
+    "alt": "EXOTIC FASTRON SLX-6",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15436,
+  "slug": "exotic-explore-sr",
+  "name": "EXOTIC EXPLORE SR",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-explore-sr-1.webp",
+    "alt": "EXOTIC EXPLORE SR",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15435,
+  "slug": "exotic-ev-926",
+  "name": "EXOTIC EV-926",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-ev-926-1.webp",
+    "alt": "EXOTIC EV-926",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15434,
+  "slug": "exotic-ev-922",
+  "name": "EXOTIC EV-922",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-ev-922-1.webp",
+    "alt": "EXOTIC EV-922",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15433,
+  "slug": "exotic-ev-922-bx",
+  "name": "EXOTIC EV-922 BX",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-ev-922-bx-1.webp",
+    "alt": "EXOTIC EV-922 BX",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15432,
+  "slug": "exotic-cooltech-ak",
+  "name": "EXOTIC COOLTECH AK",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-cooltech-ak-1.webp",
+    "alt": "EXOTIC COOLTECH AK",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15431,
+  "slug": "exotic-brosway",
+  "name": "EXOTIC BROSWAY",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-brosway-1.webp",
+    "alt": "EXOTIC BROSWAY",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15430,
+  "slug": "exotic-brosway-5-0",
+  "name": "EXOTIC BROSWAY 5.0",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-brosway-5-0-1.webp",
+    "alt": "EXOTIC BROSWAY 5.0",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15429,
+  "slug": "exotic-blitz",
+  "name": "EXOTIC BLITZ",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-blitz-1.webp",
+    "alt": "EXOTIC BLITZ",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 15428,
+  "slug": "exotic-blazon",
+  "name": "EXOTIC BLAZON",
+  "brand": "EXOTIC",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {},
+  "description": null,
+  "images": [
+   {
+    "src": "/img/produk/exotic-blazon-1.webp",
+    "alt": "EXOTIC BLAZON",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14860,
+  "slug": "uou-us6",
+  "name": "UOU US6",
+  "brand": "UOU",
+  "price": 3999000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 12AH",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik UOU US1 dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uou-us6-1.webp",
+    "alt": "UOU US6",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14857,
+  "slug": "uou-us5",
+  "name": "UOU US5",
+  "brand": "UOU",
+  "price": 3999000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 12AH",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik UOU US1 dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uou-us5-1.webp",
+    "alt": "UOU US5",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14855,
+  "slug": "selis-kenari",
+  "name": "SELIS KENARI",
+  "brand": "SELIS",
+  "price": 5400000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500 W",
+   "Jarak Tempuh": "35 Km",
+   "Kecepatan Max": "35 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/selis-kenari-1.webp",
+    "alt": "SELIS KENARI",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14853,
+  "slug": "united-dresden-2-0",
+  "name": "UNITED DRESDEN 2.0",
+  "brand": "UNITED",
+  "price": 6500000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 600 W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "35 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/united-dresden-2-0-1.webp",
+    "alt": "UNITED DRESDEN 2.0",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14852,
+  "slug": "genio-orby-2-0",
+  "name": "GENIO ORBY 2.0",
+  "brand": "GENIO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "36V 350 W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "100 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/genio-orby-2-0-1.webp",
+    "alt": "GENIO ORBY 2.0",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14849,
+  "slug": "genio-orby-1-1",
+  "name": "GENIO ORBY 1.1",
+  "brand": "GENIO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "36V 350 W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "100 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/genio-orby-1-1-1.webp",
+    "alt": "GENIO ORBY 1.1",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14848,
+  "slug": "goda-140-d",
+  "name": "GODA 140 D",
+  "brand": "GODA",
+  "price": 7499000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 12AH – 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-140-d-1.webp",
+    "alt": "GODA 140 D",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14847,
+  "slug": "goda-148",
+  "name": "GODA 148",
+  "brand": "GODA",
+  "price": 7499000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 12AH",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-148-1.webp",
+    "alt": "GODA 148",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14846,
+  "slug": "goda-146-d",
+  "name": "GODA 146 D",
+  "brand": "GODA",
+  "price": 7499000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 12AH",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "45 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-146-d-1.webp",
+    "alt": "GODA 146 D",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14845,
+  "slug": "goda-147-ds",
+  "name": "GODA 147 DS",
+  "brand": "GODA",
+  "price": 7499000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 12AH – 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-147-ds-1.webp",
+    "alt": "GODA 147 DS",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14839,
+  "slug": "goda-gd-140-new",
+  "name": "GODA GD 140 New",
+  "brand": "GODA",
+  "price": 7499000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 12AH – 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-gd-140-new-1.webp",
+    "alt": "GODA GD 140 New",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14838,
+  "slug": "uwinfly-maleo",
+  "name": "UWINFLY MALEO",
+  "brand": "UWINFLY",
+  "price": 5299000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 12AH",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-maleo-1.webp",
+    "alt": "uwinfly-maleo",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 14835,
+  "slug": "uwinfly-rf7",
+  "name": "UWINFLY RF7",
+  "brand": "UWINFLY",
+  "price": 5299000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 12AH",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-rf7-1.webp",
+    "alt": "uwinfly-rf7",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 14833,
+  "slug": "ofero-stareer-pro",
+  "name": "OFERO STAREER PRO",
+  "brand": "OFERO",
+  "price": 7399000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "100 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "200 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/ofero-stareer-pro-1.webp",
+    "alt": "OFERO STAREER PRO",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14774,
+  "slug": "uwinfly-d8s",
+  "name": "UWINFLY D8S",
+  "brand": "UWINFLY",
+  "price": 7090000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 12 AH",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-d8s-1.webp",
+    "alt": "Uwinfly D8S",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14766,
+  "slug": "uwinfly-r7s",
+  "name": "UWINFLY R7S",
+  "brand": "UWINFLY",
+  "price": 7090000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 12 AH",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-r7s-1.webp",
+    "alt": "UWINFLY R7S",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-r7s-2.webp",
+    "alt": "UWINFLY R7S",
+    "color": {
+     "label": "Pink",
+     "hex": "#f08bb4"
+    }
+   },
+   {
+    "src": "/img/produk/uwinfly-r7s-3.webp",
+    "alt": "UWINFLY R7S",
+    "color": {
+     "label": "Biru",
+     "hex": "#2b5fd9"
+    }
+   },
+   {
+    "src": "/img/produk/uwinfly-r7s-4.webp",
+    "alt": "UWINFLY R7S",
+    "color": {
+     "label": "Hijau",
+     "hex": "#3aa35b"
+    }
+   },
+   {
+    "src": "/img/produk/uwinfly-r7s-5.webp",
+    "alt": "UWINFLY R7S",
+    "color": {
+     "label": "Kuning",
+     "hex": "#f2c230"
+    }
+   },
+   {
+    "src": "/img/produk/uwinfly-r7s-6.webp",
+    "alt": "UWINFLY R7S",
+    "color": {
+     "label": "Merah",
+     "hex": "#d6282b"
+    }
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14753,
+  "slug": "mevi-s1",
+  "name": "MEVI S1",
+  "brand": "MEVI",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/mevi-s1-1.webp",
+    "alt": "Mevi S1",
+    "color": {
+     "label": "Hijau",
+     "hex": "#3aa35b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-s1-2.webp",
+    "alt": "MEVI S1",
+    "color": {
+     "label": "Kuning",
+     "hex": "#f2c230"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-s1-3.webp",
+    "alt": "MEVI S1",
+    "color": {
+     "label": "Hitam",
+     "hex": "#1f1f1f"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-s1-4.webp",
+    "alt": "MEVI S1",
+    "color": {
+     "label": "Hitam",
+     "hex": "#1f1f1f"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-s1-5.webp",
+    "alt": "MEVI S1",
+    "color": {
+     "label": "Hitam",
+     "hex": "#1f1f1f"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-s1-6.webp",
+    "alt": "MEVI S1",
+    "color": {
+     "label": "Biru",
+     "hex": "#2b5fd9"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-s1-7.webp",
+    "alt": "MEVI S1",
+    "color": {
+     "label": "Biru",
+     "hex": "#2b5fd9"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-s1-8.webp",
+    "alt": "MEVI S1",
+    "color": {
+     "label": "Hijau",
+     "hex": "#3aa35b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-s1-9.webp",
+    "alt": "Mevi S1",
+    "color": {
+     "label": "Hijau",
+     "hex": "#3aa35b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-s1-10.webp",
+    "alt": "MEVI S1",
+    "color": {
+     "label": "Merah",
+     "hex": "#d6282b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-s1-11.webp",
+    "alt": "MEVI S1",
+    "color": {
+     "label": "Merah",
+     "hex": "#d6282b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-s1-12.webp",
+    "alt": "MEVI S1",
+    "color": {
+     "label": "Kuning",
+     "hex": "#f2c230"
+    }
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14742,
+  "slug": "mevi-u1",
+  "name": "MEVI U1",
+  "brand": "MEVI",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/mevi-u1-1.webp",
+    "alt": "Mevi U1",
+    "color": {
+     "label": "Biru",
+     "hex": "#2b5fd9"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-u1-2.webp",
+    "alt": "Mevi U1",
+    "color": {
+     "label": "Biru",
+     "hex": "#2b5fd9"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-u1-3.webp",
+    "alt": "MEVI U1",
+    "color": {
+     "label": "Hijau",
+     "hex": "#3aa35b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-u1-4.webp",
+    "alt": "MEVI U1",
+    "color": {
+     "label": "Hijau",
+     "hex": "#3aa35b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-u1-5.webp",
+    "alt": "MEVI U1",
+    "color": {
+     "label": "Abu-abu",
+     "hex": "#8a8f98"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-u1-6.webp",
+    "alt": "MEVI U1",
+    "color": {
+     "label": "Abu-abu",
+     "hex": "#8a8f98"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-u1-7.webp",
+    "alt": "MEVI U1",
+    "color": {
+     "label": "Pink",
+     "hex": "#f08bb4"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-u1-8.webp",
+    "alt": "MEVI U1",
+    "color": {
+     "label": "Pink",
+     "hex": "#f08bb4"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-u1-9.webp",
+    "alt": "MEVI U1",
+    "color": {
+     "label": "Merah",
+     "hex": "#d6282b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-u1-10.webp",
+    "alt": "MEVI U1",
+    "color": {
+     "label": "Merah",
+     "hex": "#d6282b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-u1-11.webp",
+    "alt": "MEVI U1",
+    "color": {
+     "label": "Biru",
+     "hex": "#2b5fd9"
+    }
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14727,
+  "slug": "mevi-g1",
+  "name": "MEVI G1",
+  "brand": "MEVI",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/mevi-g1-1.webp",
+    "alt": "Mevi G1",
+    "color": {
+     "label": "Abu-abu",
+     "hex": "#8a8f98"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-g1-2.webp",
+    "alt": "MEVI G1",
+    "color": {
+     "label": "Kuning",
+     "hex": "#f2c230"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-g1-3.webp",
+    "alt": "MEVI G1",
+    "color": null
+   },
+   {
+    "src": "/img/produk/mevi-g1-4.webp",
+    "alt": "MEVI G1",
+    "color": null
+   },
+   {
+    "src": "/img/produk/mevi-g1-5.webp",
+    "alt": "MEVI G1",
+    "color": null
+   },
+   {
+    "src": "/img/produk/mevi-g1-6.webp",
+    "alt": "MEVI G1",
+    "color": {
+     "label": "Biru",
+     "hex": "#2b5fd9"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-g1-7.webp",
+    "alt": "MEVI G1",
+    "color": {
+     "label": "Biru",
+     "hex": "#2b5fd9"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-g1-8.webp",
+    "alt": "MEVI G1",
+    "color": {
+     "label": "Hijau",
+     "hex": "#3aa35b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-g1-9.webp",
+    "alt": "MEVI G1",
+    "color": {
+     "label": "Hijau",
+     "hex": "#3aa35b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-g1-10.webp",
+    "alt": "Mevi G1",
+    "color": {
+     "label": "Abu-abu",
+     "hex": "#8a8f98"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-g1-11.webp",
+    "alt": "MEVI G1",
+    "color": {
+     "label": "Abu-abu",
+     "hex": "#8a8f98"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-g1-12.webp",
+    "alt": "MEVI G1",
+    "color": {
+     "label": "Merah",
+     "hex": "#d6282b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-g1-13.webp",
+    "alt": "MEVI G1",
+    "color": {
+     "label": "Merah",
+     "hex": "#d6282b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-g1-14.webp",
+    "alt": "MEVI G1",
+    "color": {
+     "label": "Merah",
+     "hex": "#d6282b"
+    }
+   },
+   {
+    "src": "/img/produk/mevi-g1-15.webp",
+    "alt": "MEVI G1",
+    "color": {
+     "label": "Kuning",
+     "hex": "#f2c230"
+    }
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14577,
+  "slug": "goda-147-b",
+  "name": "GODA 147 B",
+  "brand": "GODA",
+  "price": 4999000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 12 AH",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-147-b-1.webp",
+    "alt": "GODA 147 B",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 14549,
+  "slug": "genio-easton-s1",
+  "name": "GENIO EASTON S1",
+  "brand": "GENIO",
+  "price": 5799000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/genio-easton-s1-1.webp",
+    "alt": "GENIO EASTON S1",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-s1-2.webp",
+    "alt": "GENIO EASTON S1",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-s1-3.webp",
+    "alt": "GENIO EASTON S1",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-s1-4.webp",
+    "alt": "GENIO EASTON S1",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14508,
+  "slug": "goda-gd-210-salin",
+  "name": "GODA GD 210",
+  "brand": "GODA",
+  "price": 8199000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 1000W",
+   "Jarak Tempuh": "50 Km",
+   "Kecepatan Max": "55 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-gd-210-salin-1.webp",
+    "alt": "GD 210",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14506,
+  "slug": "goda-gd200",
+  "name": "GODA GD 200",
+  "brand": "GODA",
+  "price": 7499000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 1000W",
+   "Jarak Tempuh": "50 Km",
+   "Kecepatan Max": "55 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-gd200-1.webp",
+    "alt": "GD 200",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14503,
+  "slug": "goda-310-rhino",
+  "name": "GODA 310 RHINO",
+  "brand": "GODA",
+  "price": 9000000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 600W",
+   "Jarak Tempuh": "50 Km",
+   "Kecepatan Max": "35 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-310-rhino-1.webp",
+    "alt": "GODA 310 RHINO",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14501,
+  "slug": "goda-146-a",
+  "name": "GODA 146 A",
+  "brand": "GODA",
+  "price": 4299000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "45 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-146-a-1.webp",
+    "alt": "GODA 146-A",
+    "color": null
+   },
+   {
+    "src": "/img/produk/goda-146-a-2.webp",
+    "alt": "GODA 146-A",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14499,
+  "slug": "goda-145-a",
+  "name": "GODA 145 A",
+  "brand": "GODA",
+  "price": 4299000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-145-a-1.webp",
+    "alt": "GODA 145 A",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14497,
+  "slug": "goda-147-a",
+  "name": "GODA 147 A",
+  "brand": "GODA",
+  "price": 4999000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-147-a-1.webp",
+    "alt": "GODA 147 A",
+    "color": null
+   },
+   {
+    "src": "/img/produk/goda-147-a-2.webp",
+    "alt": "GODA 147 A",
+    "color": null
+   },
+   {
+    "src": "/img/produk/goda-147-a-3.webp",
+    "alt": "GODA 147 A",
+    "color": null
+   },
+   {
+    "src": "/img/produk/goda-147-a-4.webp",
+    "alt": "GODA 147 A",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14082,
+  "slug": "ofero-stareer",
+  "name": "OFERO STAREER MAX",
+  "brand": "OFERO",
+  "price": 7399000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "100 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "200 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "OFERO STAREER Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/ofero-stareer-1.webp",
+    "alt": "OFERO STAREER MAX",
+    "color": {
+     "label": "Putih",
+     "hex": "#f4f4f4"
+    }
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 14081,
+  "slug": "ofero-magiccal",
+  "name": "OFERO MAGICCAL",
+  "brand": "OFERO",
+  "price": 6299000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 350W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "35 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/ofero-magiccal-1.webp",
+    "alt": "OFERO MAGICCAL",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 14078,
+  "slug": "ofero-ledo",
+  "name": "OFERO LEDO",
+  "brand": "OFERO",
+  "price": 4999000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 350W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "35 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/ofero-ledo-1.webp",
+    "alt": "OFERO LEDO",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 14070,
+  "slug": "mevi-f16",
+  "name": "MEVI F16",
+  "brand": "MEVI",
+  "price": 5299000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 350W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/mevi-f16-1.webp",
+    "alt": "MEVI F16",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 14064,
+  "slug": "mevi-star",
+  "name": "MEVI STAR",
+  "brand": "MEVI",
+  "price": 3699000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 350W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/mevi-star-1.webp",
+    "alt": "MEVI STAR",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13926,
+  "slug": "uwinfly-romeo",
+  "name": "UWINFLY ROMEO",
+  "brand": "UWINFLY",
+  "price": 7090000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "60V 800W",
+   "Jarak Tempuh": "60 Km",
+   "Kecepatan Max": "55 Km/Jam",
+   "Beban Max": "200 Kg",
+   "Durasi Charger": "10 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-romeo-1.webp",
+    "alt": "Uwinfly Romeo",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-romeo-2.webp",
+    "alt": "Uwinfly Romeo",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-romeo-3.webp",
+    "alt": "Uwinfly Romeo",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-romeo-4.webp",
+    "alt": "Uwinfly Romeo",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-romeo-5.webp",
+    "alt": "Uwinfly Romeo",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-romeo-6.webp",
+    "alt": "Uwinfly Romeo",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13924,
+  "slug": "uwinfly-df8",
+  "name": "UWINFLY DF8",
+  "brand": "UWINFLY",
+  "price": 5299000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-df8-1.webp",
+    "alt": "uwinfly df8",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13900,
+  "slug": "uwinfly-rf8",
+  "name": "UWINFLY RF8",
+  "brand": "UWINFLY",
+  "price": 5599000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 350W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-rf8-1.webp",
+    "alt": "UWINFLY RF8",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-rf8-2.webp",
+    "alt": "UWINFLY RF8",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-rf8-3.webp",
+    "alt": "UWINFLY RF8",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-rf8-4.webp",
+    "alt": "UWINFLY RF8",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13892,
+  "slug": "united-salvador-2-0",
+  "name": "UNITED SALVADOR 2.0",
+  "brand": "UNITED",
+  "price": 7050000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 350W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "35 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/united-salvador-2-0-1.webp",
+    "alt": "UNITED SALVADOR 2.0",
+    "color": null
+   },
+   {
+    "src": "/img/produk/united-salvador-2-0-2.webp",
+    "alt": "UNITED SALVADOR 2.0",
+    "color": null
+   },
+   {
+    "src": "/img/produk/united-salvador-2-0-3.webp",
+    "alt": "UNITED SALVADOR 2.0",
+    "color": null
+   },
+   {
+    "src": "/img/produk/united-salvador-2-0-4.webp",
+    "alt": "UNITED SALVADOR 2.0",
+    "color": null
+   },
+   {
+    "src": "/img/produk/united-salvador-2-0-5.webp",
+    "alt": "UNITED SALVADOR 2.0",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13882,
+  "slug": "united-dresden",
+  "name": "UNITED DRESDEN",
+  "brand": "UNITED",
+  "price": 6500000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 350W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "35 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/united-dresden-1.webp",
+    "alt": "UNITED DRESDEN",
+    "color": null
+   },
+   {
+    "src": "/img/produk/united-dresden-2.webp",
+    "alt": "UNITED DRESDEN",
+    "color": null
+   },
+   {
+    "src": "/img/produk/united-dresden-3.webp",
+    "alt": "UNITED DRESDEN",
+    "color": null
+   },
+   {
+    "src": "/img/produk/united-dresden-4.webp",
+    "alt": "UNITED DRESDEN",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13876,
+  "slug": "selis-mandalika",
+  "name": "SELIS MANDALIKA",
+  "brand": "SELIS",
+  "price": 5400000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "36 Volts 12 Ah",
+   "Jarak Tempuh": "30 Km",
+   "Kecepatan Max": "35 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/selis-mandalika-1.webp",
+    "alt": "SELIS MANDALIKA",
+    "color": null
+   },
+   {
+    "src": "/img/produk/selis-mandalika-2.webp",
+    "alt": "SELIS MANDALIKA",
+    "color": null
+   },
+   {
+    "src": "/img/produk/selis-mandalika-3.webp",
+    "alt": "SELIS MANDALIKA",
+    "color": null
+   },
+   {
+    "src": "/img/produk/selis-mandalika-4.webp",
+    "alt": "SELIS MANDALIKA",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13871,
+  "slug": "selis-murai",
+  "name": "SELIS MURAI",
+  "brand": "SELIS",
+  "price": 5699000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48 Volts 12 Ah",
+   "Jarak Tempuh": "35 Km",
+   "Kecepatan Max": "35 Km/Jam",
+   "Beban Max": "200 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/selis-murai-1.webp",
+    "alt": "SELIS MURAI",
+    "color": null
+   },
+   {
+    "src": "/img/produk/selis-murai-2.webp",
+    "alt": "SELIS MURAI",
+    "color": null
+   },
+   {
+    "src": "/img/produk/selis-murai-3.webp",
+    "alt": "SELIS MURAI",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13866,
+  "slug": "selis-e-max-single-lithium",
+  "name": "SELIS E-MAX",
+  "brand": "SELIS",
+  "price": 15000000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "60V 25Ah",
+   "Jarak Tempuh": "60 Km",
+   "Kecepatan Max": "50 Km/Jam",
+   "Beban Max": "225 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "SINGLE LITHIUM Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/selis-e-max-single-lithium-1.webp",
+    "alt": "SELIS E-MAX SINGLE LITHIUM",
+    "color": {
+     "label": "Merah",
+     "hex": "#d6282b"
+    }
+   },
+   {
+    "src": "/img/produk/selis-e-max-single-lithium-2.webp",
+    "alt": "SELIS E-MAX SINGLE LITHIUM",
+    "color": null
+   },
+   {
+    "src": "/img/produk/selis-e-max-single-lithium-3.webp",
+    "alt": "SELIS E-MAX SINGLE LITHIUM",
+    "color": null
+   },
+   {
+    "src": "/img/produk/selis-e-max-single-lithium-4.webp",
+    "alt": "SELIS E-MAX SINGLE LITHIUM",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13810,
+  "slug": "genio-attura",
+  "name": "GENIO ATTURA",
+  "brand": "GENIO",
+  "price": 4790000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 650W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "200 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "CL Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/genio-attura-1.webp",
+    "alt": "GENIO ATTURA AUTOEV",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-attura-2.webp",
+    "alt": "GENIO ATTURA AUTOEV",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-attura-3.webp",
+    "alt": "GENIO ATTURA AUTOEV",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-attura-4.webp",
+    "alt": "GENIO ATTURA AUTOEV",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13802,
+  "slug": "genio-easton-n1",
+  "name": "GENIO EASTON N1",
+  "brand": "GENIO",
+  "price": 5799000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 900W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "200 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/genio-easton-n1-1.webp",
+    "alt": "genio Easton N1 autoev",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-n1-2.webp",
+    "alt": "genio Easton N1 autoev",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-n1-3.webp",
+    "alt": "genio Easton N1 autoev",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-n1-4.webp",
+    "alt": "genio Easton N1 autoev",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-n1-5.webp",
+    "alt": "genio Easton N1 autoev",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-n1-6.webp",
+    "alt": "genio Easton N1 autoev",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13791,
+  "slug": "genio-easton-x1",
+  "name": "GENIO EASTON X1",
+  "brand": "GENIO",
+  "price": 5799000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 870W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "200 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/genio-easton-x1-1.webp",
+    "alt": "GENIO EASTON X1 autoev",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-x1-2.webp",
+    "alt": "GENIO EASTON X1",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-x1-3.webp",
+    "alt": "GENIO EASTON X1",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-x1-4.webp",
+    "alt": "GENIO EASTON X1",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-x1-5.webp",
+    "alt": "GENIO EASTON X1",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-easton-x1-6.webp",
+    "alt": "GENIO EASTON X1",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13780,
+  "slug": "genio-orby-1-0",
+  "name": "GENIO ORBY 1.0",
+  "brand": "GENIO",
+  "price": null,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "36V 650W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "200 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/genio-orby-1-0-1.webp",
+    "alt": "genio orby 1.0 autoev",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-orby-1-0-2.webp",
+    "alt": "genio orby 1.0 autoev",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-orby-1-0-3.webp",
+    "alt": "genio orby 1.0 autoev",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-orby-1-0-4.webp",
+    "alt": "genio orby 1.0 autoev",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-orby-1-0-5.webp",
+    "alt": "genio orby 1.0 autoev",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13772,
+  "slug": "genio-attura-cl",
+  "name": "GENIO ATTURA CL",
+  "brand": "GENIO",
+  "price": 4600000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 650W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "200 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/genio-attura-cl-1.webp",
+    "alt": "GENIO",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-attura-cl-2.webp",
+    "alt": "genio attura cl autoev",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-attura-cl-3.webp",
+    "alt": "genio attura cl autoev",
+    "color": null
+   },
+   {
+    "src": "/img/produk/genio-attura-cl-4.webp",
+    "alt": "genio attura cl autoev",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13751,
+  "slug": "united-salvador",
+  "name": "UNITED SALVADOR SE",
+  "brand": "UNITED",
+  "price": 6650000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 1150W",
+   "Jarak Tempuh": "45 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "200 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "peda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/united-salvador-1.webp",
+    "alt": "United Salvador",
+    "color": null
+   },
+   {
+    "src": "/img/produk/united-salvador-2.webp",
+    "alt": "United Salvador",
+    "color": null
+   },
+   {
+    "src": "/img/produk/united-salvador-3.webp",
+    "alt": "United Salvador",
+    "color": null
+   },
+   {
+    "src": "/img/produk/united-salvador-4.webp",
+    "alt": "United Salvador",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13677,
+  "slug": "uwinfly-t3",
+  "name": "UWINFLY T3",
+  "brand": "UWINFLY",
+  "price": 9499000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "60V 1500W",
+   "Jarak Tempuh": "60 Km",
+   "Kecepatan Max": "60 Km/Jam",
+   "Beban Max": "200 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-t3-1.webp",
+    "alt": "uwinfly t3",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-t3-2.webp",
+    "alt": "UWINFLY T3",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-t3-3.webp",
+    "alt": "UWINFLY T3",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-t3-4.webp",
+    "alt": "UWINFLY T3",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-t3-5.webp",
+    "alt": "UWINFLY T3",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-t3-6.webp",
+    "alt": "UWINFLY T3",
+    "color": null
+   },
+   {
+    "src": "/img/produk/uwinfly-t3-7.webp",
+    "alt": "UWINFLY T3",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13540,
+  "slug": "pacific-e3-viper",
+  "name": "PACIFIC E3 VIPER",
+  "brand": "PACIFIC",
+  "price": 10900000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "500 W",
+   "Jarak Tempuh": "30 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "180 Kg",
+   "Durasi Charger": "4-5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/pacific-e3-viper-1.webp",
+    "alt": "PACIFIC",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 13537,
+  "slug": "pacific-astrio",
+  "name": "PACIFIC ASTRIO",
+  "brand": "PACIFIC",
+  "price": 6400000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "500 W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "4-5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/pacific-astrio-1.webp",
+    "alt": "PACIFIC ASTRIO",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13533,
+  "slug": "pacific-vertex",
+  "name": "PACIFIC VERTEX",
+  "brand": "PACIFIC",
+  "price": 7200000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "650 W",
+   "Jarak Tempuh": "60 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "4-5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/pacific-vertex-1.webp",
+    "alt": "PACIFIC VERTEX",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13526,
+  "slug": "pacific-syncros-5-0",
+  "name": "PACIFIC SYNCROS 5.0",
+  "brand": "PACIFIC",
+  "price": 7000000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "500 W",
+   "Jarak Tempuh": "70 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "4-5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/pacific-syncros-5-0-1.webp",
+    "alt": "PACIFIC SYNCROS 5.0",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13522,
+  "slug": "pacific-skeleton-5-0",
+  "name": "PACIFIC SKELETON 5.0",
+  "brand": "PACIFIC",
+  "price": 6850000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "650 W",
+   "Jarak Tempuh": "55 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "4-5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/pacific-skeleton-5-0-1.webp",
+    "alt": "PACIFIC SKELETON 5.0",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 13509,
+  "slug": "pacific-nimbuzz",
+  "name": "PACIFIC NIMBUZZ",
+  "brand": "PACIFIC",
+  "price": 6850000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "600 W",
+   "Jarak Tempuh": "60 Km",
+   "Kecepatan Max": "45 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "4-5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/pacific-nimbuzz-1.webp",
+    "alt": "PACIFIC NIMBUZZ",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13505,
+  "slug": "exotic-sprinter-lx",
+  "name": "EXOTIC SPRINTER LX",
+  "brand": "EXOTIC",
+  "price": 9800000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "1500 W",
+   "Jarak Tempuh": "55 Km",
+   "Kecepatan Max": "65 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "4-5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/exotic-sprinter-lx-1.webp",
+    "alt": "EXOTIC SPRINTER LX",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13500,
+  "slug": "exotic-sprinter-primer",
+  "name": "EXOTIC SPRINTER PRIMER",
+  "brand": "EXOTIC",
+  "price": 9800000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "1500 W",
+   "Jarak Tempuh": "55 Km",
+   "Kecepatan Max": "65 Km/Jam",
+   "Beban Max": "150 Kg",
+   "Durasi Charger": "4-5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/exotic-sprinter-primer-1.webp",
+    "alt": "EXOTIC SPRINTER PRIMER",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 13496,
+  "slug": "exotic-cooltech-3-0",
+  "name": "EXOTIC COOLTECH 3.0",
+  "brand": "EXOTIC",
+  "price": 5500000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "4-5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/exotic-cooltech-3-0-1.webp",
+    "alt": "EXOTIC COOLTECH 3.0",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13454,
+  "slug": "exotic-veloce-2-0",
+  "name": "EXOTIC VELOCE 2.0",
+  "brand": "EXOTIC",
+  "price": 5200000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "4-5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/exotic-veloce-2-0-1.webp",
+    "alt": "EXOTIC",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13450,
+  "slug": "exotic-avatar",
+  "name": "EXOTIC AVATAR",
+  "brand": "EXOTIC",
+  "price": 4900000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "4-5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/exotic-avatar-1.webp",
+    "alt": "EXOTIC AVATAR",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13447,
+  "slug": "exotic-cooltech-se",
+  "name": "EXOTIC COOLTECH SE",
+  "brand": "EXOTIC",
+  "price": 4800000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "120 Kg",
+   "Durasi Charger": "4-5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/exotic-cooltech-se-1.webp",
+    "alt": "EXOTIC COOLTECH SE",
+    "color": null
+   }
+  ],
+  "transparent": false
+ },
+ {
+  "id": 13172,
+  "slug": "uou-us1",
+  "name": "UOU US1",
+  "brand": "UOU",
+  "price": 3999000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik UOU US1 dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uou-us1-1.webp",
+    "alt": "UOU US1",
+    "color": {
+     "label": "Hijau",
+     "hex": "#3aa35b"
+    }
+   },
+   {
+    "src": "/img/produk/uou-us1-2.webp",
+    "alt": "UOU US1",
+    "color": {
+     "label": "Hitam",
+     "hex": "#1f1f1f"
+    }
+   },
+   {
+    "src": "/img/produk/uou-us1-3.webp",
+    "alt": "UOU US1",
+    "color": {
+     "label": "Pink",
+     "hex": "#f08bb4"
+    }
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 13168,
+  "slug": "uou-us2",
+  "name": "UOU US2",
+  "brand": "UOU",
+  "price": 4199000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik UOU US2 dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uou-us2-1.webp",
+    "alt": "UOU US2",
+    "color": {
+     "label": "Kuning",
+     "hex": "#f2c230"
+    }
+   },
+   {
+    "src": "/img/produk/uou-us2-2.webp",
+    "alt": "UOU US2",
+    "color": {
+     "label": "Kuning",
+     "hex": "#f2c230"
+    }
+   },
+   {
+    "src": "/img/produk/uou-us2-3.webp",
+    "alt": "UOU US2",
+    "color": {
+     "label": "Merah",
+     "hex": "#d6282b"
+    }
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 13166,
+  "slug": "uou-us3",
+  "name": "UOU US3",
+  "brand": "UOU",
+  "price": 4599000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik UOU US3 dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uou-us3-1.webp",
+    "alt": "UOU US3",
+    "color": {
+     "label": "Merah",
+     "hex": "#d6282b"
+    }
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 13164,
+  "slug": "uou-um1",
+  "name": "UOU UM1",
+  "brand": "UOU",
+  "price": 10999000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "60V 1500W",
+   "Jarak Tempuh": "60 Km",
+   "Kecepatan Max": "55 Km/Jam",
+   "Beban Max": "200 Kg",
+   "Durasi Charger": "6 Jam"
+  },
+  "description": "Sepeda listrik UOU UM1 dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uou-um1-1.webp",
+    "alt": "UOU UM1",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 13160,
+  "slug": "viar-e-bike-uno",
+  "name": "VIAR E-BIKE UNO",
+  "brand": "VIAR",
+  "price": 5299000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 400W",
+   "Jarak Tempuh": "50 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "4 – 5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/viar-e-bike-uno-1.webp",
+    "alt": "VIAR E-BIKE UNO",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 13156,
+  "slug": "viar-caraka",
+  "name": "VIAR CARAKA",
+  "brand": "VIAR",
+  "price": 7499000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 400W",
+   "Jarak Tempuh": "50 Km",
+   "Kecepatan Max": "25 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "4 – 5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/viar-caraka-1.webp",
+    "alt": "VIAR CARAKA",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 13150,
+  "slug": "goda-140-monkey",
+  "name": "GODA 140 MONKEY",
+  "brand": "GODA",
+  "price": 5499000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "4 – 5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-140-monkey-1.webp",
+    "alt": "GODA",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 13149,
+  "slug": "goda-147-tiger",
+  "name": "GODA 147 TIGER",
+  "brand": "GODA",
+  "price": 5499000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "4 – 5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/goda-147-tiger-1.webp",
+    "alt": "GODA 147 TIGER",
+    "color": null
+   }
+  ],
+  "transparent": true
+ },
+ {
+  "id": 13146,
+  "slug": "uwinfly-df-7",
+  "name": "UWINFLY DF-7",
+  "brand": "UWINFLY",
+  "price": 4099000,
+  "regularPrice": null,
+  "onSale": false,
+  "specs": {
+   "Kapasitas Baterai": "48V 500W",
+   "Jarak Tempuh": "40 Km",
+   "Kecepatan Max": "40 Km/Jam",
+   "Beban Max": "130 Kg",
+   "Durasi Charger": "4 – 5 Jam"
+  },
+  "description": "Sepeda listrik dengan desain futuristik terbaik di kelasnya.. Diskon 10% untuk ganti baterai Ketentuan : * Garansi mulai berlaku pada saat tanggal pembelian di invoice * Garansi hanya berlaku bila ada kesalahan dari produksi",
+  "images": [
+   {
+    "src": "/img/produk/uwinfly-df-7-1.webp",
+    "alt": "UWINFLY",
+    "color": null
+   }
+  ],
+  "transparent": true
+ }
+]
