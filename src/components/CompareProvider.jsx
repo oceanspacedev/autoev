@@ -31,7 +31,13 @@ export default function CompareProvider({ children }) {
   }, [])
 
   const value = useMemo(
-    () => ({ slugs, toggle, has: (slug) => slugs.includes(slug), clear: () => setSlugs([]) }),
+    () => ({
+      slugs,
+      toggle,
+      has: (slug) => slugs.includes(slug),
+      clear: () => setSlugs([]),
+      replace: (next) => setSlugs(next.filter(productBySlug).slice(0, COMPARE_MAX)),
+    }),
     [slugs, toggle],
   )
   return <CompareContext.Provider value={value}>{children}</CompareContext.Provider>
