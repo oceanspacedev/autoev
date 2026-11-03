@@ -7,11 +7,33 @@ export const formatPrice = (n) => (n ? rupiah.format(n).replace(/\s/g, ' ') : 'T
 export const formatDate = (iso) =>
   new Date(iso).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })
 
+// The scraped product blurb is one run-on string ("…kelasnya.. Diskon 10% … Ketentuan : * … * …"),
+// sometimes with a stray model name or clipped word in front. Split it into readable parts.
+export function parseDescription(text = '') {
+  const [body, terms = ''] = text.split(/Ketentuan\s*:/i)
+  let intro = body.replace(/\.{2,}/g, '.').trim()
+  const start = intro.search(/(se)?peda listrik/i)
+  if (start > 0) intro = intro.slice(start)
+  intro = intro.replace(/^peda/i, 'Sepeda').replace(/^Sepeda listrik [A-Z0-9][A-Z0-9 .-]*? dengan/, 'Sepeda listrik dengan')
+  const sentences = intro.split(/(?<=\.)\s+/).map((s) => s.trim()).filter(Boolean)
+  return {
+    lines: sentences.map((s) => (/[.!?]$/.test(s) ? s : `${s}.`)),
+    terms: terms.split('*').map((t) => t.trim()).filter(Boolean),
+  }
+}
+
+// Rough reading time of an article body at ~200 words per minute
+export const readMinutes = (html = '') =>
+  Math.max(1, Math.round(html.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length / 200))
+
+export const whatsappMessage = (text) => `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(text)}`
+
 export function whatsappUrl(productName) {
-  const text = productName
-    ? `Hai kak, saya tertarik dengan sepeda listrik ${productName}. Bisa dibantu info harga & ketersediaannya?`
-    : 'Hai kak, saya mau tanya-tanya soal sepeda listrik di Auto EV. Bisa dibantu?'
-  return `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(text)}`
+  return whatsappMessage(
+    productName
+      ? `Hai kak, saya tertarik dengan sepeda listrik ${productName}. Bisa dibantu info harga & ketersediaannya?`
+      : 'Hai kak, saya mau tanya-tanya soal sepeda listrik di Auto EV. Bisa dibantu?',
+  )
 }
 
 export const mapsUrl = (address) =>

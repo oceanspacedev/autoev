@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
+import { usePageTitle } from '../lib/title.js'
 
 export default function NotFound() {
+  usePageTitle('Halaman tidak ditemukan')
   return (
     <section className="bg-ev-soft py-28">
       <div className="container-ev text-center">

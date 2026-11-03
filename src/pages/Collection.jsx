@@ -1,9 +1,11 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 import { Search, SlidersHorizontal, X } from 'lucide-react'
 import { brands, products } from '../lib/data.js'
 import { brandSlug } from '../lib/format.js'
+import PageHero from '../components/PageHero.jsx'
 import ProductCard from '../components/ProductCard.jsx'
+import { usePageTitle } from '../lib/title.js'
 
 const PRICE_RANGES = [
   { id: '', label: 'Semua harga' },
@@ -125,6 +127,8 @@ function FilterSheet({ open, onClose, resultCount, onReset, children }) {
   )
 }
 
+const PAGE = 24 // divisible by the 2 and 3 grid columns
+
 export default function Collection() {
   const [params, setParams] = useSearchParams()
   const [sheetOpen, setSheetOpen] = useState(false)
@@ -134,10 +138,14 @@ export default function Collection() {
   const q = params.get('q') ?? ''
   const needle = q.trim().toLowerCase()
 
+  // How many cards are shown; kept in the URL so coming back from a product restores the list
+  const shown = Math.max(PAGE, Number(params.get('lihat')) || PAGE)
+
   const update = (key, value) => {
     const next = new URLSearchParams(params)
     if (value) next.set(key, value)
     else next.delete(key)
+    if (key !== 'lihat') next.delete('lihat') // a new filter starts from the first page
     setParams(next, { replace: true })
   }
   const reset = () => {
@@ -156,6 +164,7 @@ export default function Collection() {
   )
 
   const activeBrand = brands.find((b) => brandSlug(b.name) === brand)
+  usePageTitle(activeBrand ? `${activeBrand.name} — Koleksi` : 'Koleksi')
   const activePrice = PRICE_RANGES.find((r) => r.id === price && r.id)
   const activeCount = Number(!!brand) + Number(!!price)
   const filtered = brand || price || q
@@ -177,35 +186,25 @@ export default function Collection() {
   return (
     <>
       {/* Compact header: products start above the fold */}
-      <section className="border-b border-black/5 bg-white">
-        <div className="container-ev py-8 sm:py-10">
-          <nav aria-label="Breadcrumb" className="font-ui text-xs font-semibold uppercase tracking-wider text-ev-gray">
-            <Link to="/" className="hover:text-ev-red">Beranda</Link>
-            <span className="mx-2">/</span>
-            {activeBrand ? <Link to="/koleksi" className="hover:text-ev-red">Koleksi</Link> : <span className="text-ev-ink">Koleksi</span>}
-            {activeBrand && <><span className="mx-2">/</span><span className="text-ev-ink">{activeBrand.name}</span></>}
-          </nav>
-          <div className="mt-4 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
-            <div>
-              <h1 className="text-4xl leading-none sm:text-6xl">{activeBrand ? activeBrand.name : 'Koleksi'}</h1>
-              <p className="mt-3 text-sm text-ev-gray sm:text-base">
-                {products.length} model sepeda &amp; motor listrik dari {brands.length} merek.
-              </p>
-            </div>
-            <label className="relative w-full lg:w-80">
-              <span className="sr-only">Cari motor</span>
-              <Search className="pointer-events-none absolute left-3.5 top-1/2 size-4 -translate-y-1/2 text-ev-gray" />
-              <input
-                type="search"
-                value={q}
-                onChange={(e) => update('q', e.target.value)}
-                placeholder="Cari nama atau merek…"
-                className="w-full border border-black/10 bg-ev-soft py-3 pl-10 pr-3 text-sm outline-none transition focus:border-ev-red focus:bg-white"
-              />
-            </label>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title={activeBrand ? activeBrand.name : 'Koleksi'}
+        crumbs={activeBrand ? [{ label: 'Koleksi', to: '/koleksi' }, { label: activeBrand.name }] : [{ label: 'Koleksi' }]}
+        actions={
+          <label className="relative w-full lg:w-80">
+            <span className="sr-only">Cari motor</span>
+            <Search className="pointer-events-none absolute left-3.5 top-1/2 size-4 -translate-y-1/2 text-ev-gray" />
+            <input
+              type="search"
+              value={q}
+              onChange={(e) => update('q', e.target.value)}
+              placeholder="Cari nama atau merek…"
+              className="w-full border border-black/10 bg-ev-soft py-3 pl-10 pr-3 text-sm outline-none transition focus:border-ev-red focus:bg-white"
+            />
+          </label>
+        }
+      >
+        {activeBrand ? `${activeBrand.count} model sepeda & motor listrik ${activeBrand.name}.` : `${products.length} model sepeda & motor listrik dari ${brands.length} merek.`}
+      </PageHero>
 
       <section className="bg-ev-soft pb-28">
         {/* Phone toolbar */}
@@ -239,7 +238,7 @@ export default function Collection() {
           <div>
             <div className="flex flex-wrap items-center justify-between gap-3 py-5 lg:pt-0">
               <p className="text-sm text-ev-gray">
-                Menampilkan <strong className="text-ev-ink">{list.length}</strong> dari {products.length} motor
+                {list.length} motor{filtered ? ` dari ${products.length}` : ''}
                 {activePrice && <> · <span className="text-ev-ink">{activePrice.label}</span></>}
               </p>
               <div className="hidden lg:block">{sortSelect}</div>
@@ -251,9 +250,20 @@ export default function Collection() {
             </div>
 
             {list.length ? (
-              <div className="grid grid-cols-2 gap-x-4 gap-y-8 sm:gap-x-6 sm:gap-y-10 md:grid-cols-3">
-                {list.map((p) => <ProductCard key={p.slug} product={p} />)}
-              </div>
+              <>
+                <div className="grid grid-cols-2 gap-x-4 gap-y-8 sm:gap-x-6 sm:gap-y-10 md:grid-cols-3">
+                  {list.slice(0, shown).map((p) => <ProductCard key={p.slug} product={p} />)}
+                </div>
+                {list.length > shown && (
+                  <div className="mt-12 flex flex-col items-center gap-4">
+                    <p className="text-sm text-ev-gray">{shown} dari {list.length} motor ditampilkan</p>
+                    <div className="h-0.5 w-48 bg-black/10"><div className="h-full bg-ev-red" style={{ width: `${(shown / list.length) * 100}%` }} /></div>
+                    <button type="button" onClick={() => update('lihat', String(shown + PAGE))} className="btn-outline text-ev-ink">
+                      Tampilkan {Math.min(PAGE, list.length - shown)} lagi
+                    </button>
+                  </div>
+                )}
+              </>
             ) : (
               <div className="bg-white px-6 py-20 text-center">
                 <p className="font-display text-3xl uppercase text-ev-ink">Belum ketemu</p>

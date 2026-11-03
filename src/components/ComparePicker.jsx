@@ -103,7 +103,7 @@ export default function ComparePicker({ onClose, initialBudget = '' }) {
                     <ProductImage product={p} className="size-full p-1.5" />
                   </span>
                   <span className="min-w-0 flex-1">
-                    <span className="block font-ui text-[10px] font-semibold uppercase tracking-[0.15em] text-ev-gray">{p.brand}</span>
+                    <span className="block font-ui text-xs font-semibold uppercase tracking-[0.15em] text-ev-gray">{p.brand}</span>
                     <span className="block truncate text-sm font-bold text-ev-ink">{modelName(p)}</span>
                     <span className="block text-xs text-ev-gray">{formatPrice(p.price)}{specLine && ` · ${specLine}`}</span>
                   </span>

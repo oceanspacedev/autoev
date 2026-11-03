@@ -6,9 +6,11 @@ import { BUDGETS, inBudget, topPicks } from '../lib/budgets.js'
 import { firstNumber, formatPrice, modelName, whatsappUrl } from '../lib/format.js'
 import { COMPARE_MAX, useCompare } from '../lib/compare.js'
 import ComparePicker from '../components/ComparePicker.jsx'
+import PageHero from '../components/PageHero.jsx'
 import ProductImage from '../components/ProductImage.jsx'
 import SpecIcon from '../components/SpecIcon.jsx'
 import { WhatsAppIcon } from '../components/BrandIcons.jsx'
+import { usePageTitle } from '../lib/title.js'
 
 // Which direction wins for each comparable row, and how the win is described under the motor
 const BETTER = {
@@ -57,7 +59,7 @@ function QuickBudgets({ active, onPick, onBrowse }) {
               }`}
             >
               <span className="block text-sm font-bold">{b.label}</span>
-              <span className={`block text-[11px] ${on ? 'text-white/80' : 'text-ev-gray'}`}>{count} motor</span>
+              <span className={`block text-xs ${on ? 'text-white/80' : 'text-ev-gray'}`}>{count} motor</span>
             </button>
           )
         })}
@@ -87,7 +89,7 @@ function MobileCompare({ slots, rows, winsFor, onRemove, onAdd }) {
               {winsFor(i).length > 0 && (
                 <ul className="mt-2 space-y-0.5 border-t border-black/5 pt-2">
                   {winsFor(i).map((w) => (
-                    <li key={w} className="flex items-start gap-1 text-[10px] font-semibold leading-tight text-ev-red">
+                    <li key={w} className="flex items-start gap-1 text-xs font-semibold leading-tight text-ev-red">
                       <Trophy className="mt-px size-3 shrink-0" />{w}
                     </li>
                   ))}
@@ -102,7 +104,7 @@ function MobileCompare({ slots, rows, winsFor, onRemove, onAdd }) {
               className="flex min-h-48 flex-col items-center justify-center gap-1.5 bg-white text-ev-gray"
             >
               <span className="grid size-10 place-items-center border-2 border-dashed border-black/15"><Plus className="size-5" /></span>
-              <span className="font-ui text-[10px] font-bold uppercase tracking-wider">Tambah</span>
+              <span className="font-ui text-xs font-bold uppercase tracking-wider">Tambah</span>
             </button>
           ),
         )}
@@ -111,7 +113,7 @@ function MobileCompare({ slots, rows, winsFor, onRemove, onAdd }) {
       {/* Names stay visible while scrolling through the specs */}
       <div className="sticky top-16 z-10 grid grid-cols-3 gap-px border-y border-black/10 bg-black/10">
         {slots.map((p, i) => (
-          <p key={i} className="truncate bg-ev-ink px-2.5 py-2 text-[11px] font-bold text-white">
+          <p key={i} className="truncate bg-ev-ink px-2.5 py-2 text-xs font-bold text-white">
             {p ? modelName(p) : '—'}
           </p>
         ))}
@@ -120,7 +122,7 @@ function MobileCompare({ slots, rows, winsFor, onRemove, onAdd }) {
       <div className="space-y-2 pt-2">
         {rows.map((row) => (
           <section key={row.key} className="bg-white">
-            <h3 className="flex items-center gap-2 px-3 pt-3 font-ui text-[11px] font-bold uppercase tracking-wider text-ev-gray">
+            <h3 className="flex items-center gap-2 px-3 pt-3 font-ui text-xs font-bold uppercase tracking-wider text-ev-gray">
               {row.key !== 'Harga' && <SpecIcon name={row.key} className="size-3.5 text-ev-red" />}
               {row.key}
             </h3>
@@ -156,7 +158,7 @@ function MobileCompare({ slots, rows, winsFor, onRemove, onAdd }) {
       <div className="mt-2 grid grid-cols-3 gap-2 px-2">
         {slots.map((p, i) =>
           p ? (
-            <a key={i} href={whatsappUrl(p.name)} target="_blank" rel="noreferrer" className="btn-wa px-1 py-3 text-[11px]">
+            <a key={i} href={whatsappUrl(p.name)} target="_blank" rel="noreferrer" className="btn-wa px-1 py-3 text-xs">
               <WhatsAppIcon className="size-3.5" /> Tanya
             </a>
           ) : <span key={i} />,
@@ -167,6 +169,7 @@ function MobileCompare({ slots, rows, winsFor, onRemove, onAdd }) {
 }
 
 export default function Compare() {
+  usePageTitle('Bandingkan')
   const { slugs, toggle, clear, replace } = useCompare()
   const [picker, setPicker] = useState(null) // null = closed, otherwise { budget, n } (n re-keys each opening)
   const [preset, setPreset] = useState('')
@@ -193,25 +196,20 @@ export default function Compare() {
 
   return (
     <>
-      <section className="border-b border-black/5 bg-white">
-        <div className="container-ev py-8 sm:py-10">
-          <nav aria-label="Breadcrumb" className="font-ui text-xs font-semibold uppercase tracking-wider text-ev-gray">
-            <Link to="/" className="hover:text-ev-red">Beranda</Link><span className="mx-2">/</span><span className="text-ev-ink">Bandingkan</span>
-          </nav>
-          <div className="mt-4 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
-            <div>
-              <h1 className="text-4xl leading-none sm:text-6xl">Bandingkan</h1>
-              <p className="mt-3 text-sm text-ev-gray sm:text-base">Adu harga dan spesifikasi hingga {COMPARE_MAX} motor. Nilai terbaik di tiap baris ditandai merah.</p>
-            </div>
+      <PageHero
+        title="Bandingkan"
+        crumbs={[{ label: 'Bandingkan' }]}
+        actions={
+          items.length > 0 && (
             <div className="flex gap-2">
               <button type="button" onClick={() => openPicker()} className="btn-black flex-1 sm:flex-none"><Search className="size-4" /> Pilih motor</button>
-              {items.length > 0 && (
-                <button type="button" onClick={() => { clear(); setPreset('') }} className="btn-outline text-ev-ink">Kosongkan</button>
-              )}
+              <button type="button" onClick={() => { clear(); setPreset('') }} className="btn-outline text-ev-ink">Kosongkan</button>
             </div>
-          </div>
-        </div>
-      </section>
+          )
+        }
+      >
+        Adu harga dan spesifikasi hingga {COMPARE_MAX} motor. Nilai terbaik di tiap baris ditandai merah.
+      </PageHero>
 
       <section className="bg-ev-soft py-8 pb-28 sm:py-10">
         <div className="container-ev space-y-8">
@@ -246,7 +244,7 @@ export default function Compare() {
                       <Link to={`/koleksi/${p.slug}`} className="block aspect-[4/3] bg-white">
                         <ProductImage product={p} eager className="size-full p-2" />
                       </Link>
-                      <p className="mt-3 font-ui text-[10px] font-semibold uppercase tracking-[0.15em] text-ev-gray">{p.brand}</p>
+                      <p className="mt-3 font-ui text-xs font-semibold uppercase tracking-[0.15em] text-ev-gray">{p.brand}</p>
                       <Link to={`/koleksi/${p.slug}`} className="text-base font-bold leading-snug text-ev-ink hover:text-ev-red">{modelName(p)}</Link>
                       <p className="mt-1 text-sm font-bold text-ev-ink">{formatPrice(p.price)}</p>
                       {winsFor(i).length > 0 && (
@@ -274,7 +272,7 @@ export default function Compare() {
                 {/* Specs, with a bar for every comparable number */}
                 {rows.map((row) => (
                   <div key={row.key} className="contents">
-                    <div className="sticky left-0 z-10 flex items-center gap-2 bg-ev-light p-3 font-ui text-[11px] font-bold uppercase text-ev-gray sm:p-4 sm:text-xs">
+                    <div className="sticky left-0 z-10 flex items-center gap-2 bg-ev-light p-3 font-ui text-xs font-bold uppercase text-ev-gray sm:p-4 sm:text-xs">
                       {row.key !== 'Harga' && <SpecIcon name={row.key} className="size-4 shrink-0 text-ev-red" />}
                       {row.key}
                     </div>

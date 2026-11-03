@@ -1,25 +1,33 @@
+import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 
-// Red slanted title band used at the top of inner pages
-export default function PageHero({ title, eyebrow, children, crumbs = [] }) {
+// Beranda / … trail; the last crumb (no `to`) is the current page
+export function Breadcrumb({ crumbs = [], className = '' }) {
   return (
-    <section className="relative overflow-hidden bg-ev-soft">
-      <div className="slash-band bg-ev-red pb-16 pt-10 text-white sm:pt-14">
-        <div className="container-ev">
-          {crumbs.length > 0 && (
-            <nav aria-label="Breadcrumb" className="mb-4 font-ui text-xs font-semibold uppercase tracking-wider text-white/75">
-              <Link to="/" className="hover:text-white">Beranda</Link>
-              {crumbs.map((c) => (
-                <span key={c.label}>
-                  <span className="mx-2">/</span>
-                  {c.to ? <Link to={c.to} className="hover:text-white">{c.label}</Link> : <span className="text-white">{c.label}</span>}
-                </span>
-              ))}
-            </nav>
-          )}
-          {eyebrow && <p className="font-ui text-xs font-bold uppercase tracking-[0.2em] text-black/70">{eyebrow}</p>}
-          <h1 className="mt-1 text-4xl text-white sm:text-6xl">{title}</h1>
-          {children && <div className="mt-4 max-w-2xl text-sm leading-7 text-white/90 sm:text-base">{children}</div>}
+    <nav aria-label="Breadcrumb" className={`font-ui text-xs font-semibold uppercase tracking-wider text-ev-gray ${className}`}>
+      <Link to="/" className="-my-2 inline-block py-2 hover:text-ev-red">Beranda</Link>
+      {crumbs.map((c) => (
+        <Fragment key={c.label}>
+          <span className="mx-2">/</span>
+          {c.to ? <Link to={c.to} className="-my-2 inline-block py-2 hover:text-ev-red">{c.label}</Link> : <span className="text-ev-ink">{c.label}</span>}
+        </Fragment>
+      ))}
+    </nav>
+  )
+}
+
+// Compact white title bar shared by every inner page; `actions` sits on the right on desktop
+export default function PageHero({ title, children, crumbs = [], actions }) {
+  return (
+    <section className="border-b border-black/5 bg-white">
+      <div className="container-ev py-8 sm:py-10">
+        <Breadcrumb crumbs={crumbs} />
+        <div className="mt-4 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+          <div>
+            <h1 className="text-4xl leading-none sm:text-6xl">{title}</h1>
+            {children && <p className="mt-3 max-w-2xl text-sm leading-6 text-ev-gray sm:text-base sm:leading-7">{children}</p>}
+          </div>
+          {actions}
         </div>
       </div>
     </section>

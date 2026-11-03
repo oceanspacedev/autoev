@@ -63,19 +63,19 @@
  "services": [
   {
    "title": "Showroom",
-   "text": "Segera temukan sepeda listrik impian mu di SHOWROOM kami. Kami menyediakan berbagai macam model dan harga yang sesuai dengan keinginan dan budget Anda. Datang dan dapatkan sepeda listrik terbaik yang tepat untuk Anda."
+   "text": "Lihat langsung berbagai model sepeda listrik dengan pilihan harga yang sesuai budget kamu."
   },
   {
-   "title": "SALES",
-   "text": "Dapatkan penawaran terbaik hanya di SALES kami! Kami menawarkan berbagai pilihan sepeda listrik dengan harga yang kompetitif dan kualitas yang terbaik. Jangan lewatkan kesempatan ini untuk memiliki sepeda listrik impian Anda."
+   "title": "Sales",
+   "text": "Penawaran terbaik dengan harga kompetitif untuk sepeda listrik berkualitas."
   },
   {
-   "title": "SPAREPARTS",
-   "text": "Beli Sparepart Sepeda Listrik di sini! Kami menyediakan semua yang Anda butuhkan untuk membuat sepeda listrik Anda tetap berjalan: baterai, motor, kontrol, charger, dan lainnya. Pesan sekarang dan dapatkan pengiriman cepat dengan harga terbaik!"
+   "title": "Sparepart",
+   "text": "Baterai, motor, kontroler, charger, dan suku cadang lain supaya sepeda listrik kamu tetap jalan."
   },
   {
-   "title": "SERVICE",
-   "text": "SERVICE kami siap untuk membantu Anda dalam semua masalah sepeda listrik Anda. Kami memiliki tim ahli yang siap untuk membantu Anda dan menyediakan layanan purna jual yang terbaik. Datang dan rasakan layanan terbaik dari kami."
+   "title": "Service",
+   "text": "Tim ahli dan layanan purna jual yang siap bantu semua masalah sepeda listrik kamu."
   }
  ],
  "testimonials": [
@@ -256,18 +256,34 @@
    "alt": "Pelanggan Auto EV 16"
   }
  ],
- "communityPhotos": [
-  {
-   "src": "/img/komunitas/foto-1.webp",
-   "caption": "Komunitas Auto EVers"
-  },
-  {
-   "src": "/img/komunitas/foto-2.webp",
-   "caption": "Sunmori bareng teman nongkrong"
-  },
-  {
-   "src": "/img/komunitas/foto-3.webp",
-   "caption": "Grand opening untuk auto evers cirebon"
-  }
- ]
+ "community": {
+  "intro": "Komunitas pengguna sepeda listrik dari Auto EV. Beli di Auto EV atau di tempat lain, semua boleh gabung untuk berbagi pengalaman, tips perawatan, dan rute seru.",
+  "perks": [
+   "Talkshow bermanfaat",
+   "Games & kuis berhadiah",
+   "Merchandise eksklusif",
+   "Cek & service ringan"
+  ],
+  "requirements": "Punya sepeda listrik, usia minimal 12 tahun (di bawahnya didampingi orang dewasa), isi data diri, dan follow sosial media Auto EV.",
+  "areas": [
+   "Cirebon",
+   "Jatiwangi",
+   "Bandung",
+   "Subang",
+   "Karawang",
+   "Tangerang",
+   "Pekalongan",
+   "Kudus"
+  ],
+  "photos": [
+   {
+    "src": "/img/komunitas/foto-2.webp",
+    "caption": "Sunmori bareng teman nongkrong"
+   },
+   {
+    "src": "/img/komunitas/foto-3.webp",
+    "caption": "Grand opening Auto EV Cirebon"
+   }
+  ]
+ }
 }

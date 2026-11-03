@@ -37,10 +37,10 @@ export default function Footer() {
 
         <div>
           <h2 className="text-lg text-white">Menu</h2>
-          <ul className="mt-5 space-y-3 text-sm">
+          <ul className="mt-5 space-y-1 text-sm">
             {NAV.map((n) => (
               <li key={n.to}>
-                <Link to={n.to} className="transition hover:text-ev-red">{n.label}</Link>
+                <Link to={n.to} className="inline-block py-1.5 transition hover:text-ev-red">{n.label}</Link>
               </li>
             ))}
           </ul>
@@ -58,13 +58,13 @@ export default function Footer() {
           <h2 className="text-lg text-white">Hubungi Kami</h2>
           <ul className="mt-5 space-y-4 text-sm">
             <li>
-              <a href={`tel:${site.phone.replace(/[^\d+]/g, '')}`} className="flex gap-3 transition hover:text-ev-red">
+              <a href={`tel:${site.phone.replace(/[^\d+]/g, '')}`} className="-my-1 flex gap-3 py-1 transition hover:text-ev-red">
                 <Phone className="size-4 shrink-0 text-ev-red" />{site.phone}
               </a>
             </li>
             {site.emails.map((e) => (
               <li key={e}>
-                <a href={`mailto:${e}`} className="flex gap-3 break-all transition hover:text-ev-red">
+                <a href={`mailto:${e}`} className="-my-1 flex gap-3 break-all py-1 transition hover:text-ev-red">
                   <Mail className="size-4 shrink-0 text-ev-red" />{e}
                 </a>
               </li>

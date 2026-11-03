@@ -161,7 +161,8 @@ const community = pageBySlug('auto-evers/')
 
 const customerGallery = []
 for (const [i, img] of about.images.entries()) {
-  const src = await webp(img.src, `tentang/pelanggan-${i + 1}`, 1400)
+  // The page links WordPress thumbnails (Page-1-200x300.jpg); drop the size suffix to get the original
+  const src = await webp(img.src.replace(/-\d+x\d+(\.\w+)$/, '$1'), `tentang/pelanggan-${i + 1}`, 800)
   if (src) customerGallery.push({ src, alt: `Pelanggan Auto EV ${i + 1}` })
 }
 const communityPhotos = []

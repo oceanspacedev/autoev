@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
-import { Link, NavLink, useLocation } from 'react-router-dom'
-import { Menu, X } from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
+import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
+import { Menu, Search, X } from 'lucide-react'
 import { site } from '../lib/data.js'
 import { whatsappUrl } from '../lib/format.js'
 import { NAV } from '../lib/nav.js'
@@ -11,6 +11,35 @@ export default function Header() {
   // Remember which page the menu was opened on, so navigating closes it
   const [openOn, setOpenOn] = useState(null)
   const open = openOn === pathname
+  // Same trick for the search field
+  const [searchOn, setSearchOn] = useState(null)
+  const onCollection = pathname === '/koleksi'
+  const searching = searchOn === pathname && !onCollection
+  const [query, setQuery] = useState('')
+  const navigate = useNavigate()
+  const submitSearch = (e) => {
+    e.preventDefault()
+    const q = query.trim()
+    navigate(q ? `/koleksi?q=${encodeURIComponent(q)}` : '/koleksi')
+    setQuery('')
+  }
+  // Close the search field on a click/tap outside it (or its toggle) and on Escape
+  const searchRef = useRef(null)
+  const searchToggleRef = useRef(null)
+  useEffect(() => {
+    if (!searching) return
+    const onPointer = (e) => {
+      if (!searchRef.current?.contains(e.target) && !searchToggleRef.current?.contains(e.target)) setSearchOn(null)
+    }
+    const onKey = (e) => e.key === 'Escape' && setSearchOn(null)
+    document.addEventListener('pointerdown', onPointer)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('pointerdown', onPointer)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [searching])
+
   const [scrolled, setScrolled] = useState(false)
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8)
@@ -26,7 +55,7 @@ export default function Header() {
           <img src={site.logo} alt="Auto EV" className="h-8 w-auto lg:h-10" />
         </Link>
 
-        <nav className="hidden items-center gap-7 xl:flex" aria-label="Menu utama">
+        <nav className="hidden items-center gap-4 lg:flex xl:gap-7" aria-label="Menu utama">
           {NAV.map((item) => (
             <NavLink
               key={item.to}
@@ -43,14 +72,27 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
-          <a href={whatsappUrl()} target="_blank" rel="noreferrer" className="btn-red hidden whitespace-nowrap px-4 py-2.5 text-xs sm:inline-flex">
-            <WhatsAppIcon className="size-4" /> Chat Kami
+        <div className="flex items-center gap-1 sm:gap-2">
+          {!onCollection && (
+            <button
+              ref={searchToggleRef}
+              type="button"
+              onClick={() => { setSearchOn(searching ? null : pathname); setOpenOn(null) }}
+              className="grid size-10 place-items-center transition hover:text-ev-red"
+              aria-expanded={searching}
+              aria-controls="site-search"
+              aria-label={searching ? 'Tutup pencarian' : 'Cari motor'}
+            >
+              {searching ? <X className="size-5" /> : <Search className="size-5" />}
+            </button>
+          )}
+          <a href={whatsappUrl()} target="_blank" rel="noreferrer" className="btn-red whitespace-nowrap px-3 py-2.5 text-xs sm:px-4">
+            <WhatsAppIcon className="size-4" /> Chat<span className="hidden sm:inline"> Kami</span>
           </a>
           <button
             type="button"
-            onClick={() => setOpenOn(open ? null : pathname)}
-            className="grid size-10 place-items-center xl:hidden"
+            onClick={() => { setOpenOn(open ? null : pathname); setSearchOn(null) }}
+            className="grid size-10 place-items-center lg:hidden"
             aria-expanded={open}
             aria-controls="mobile-menu"
             aria-label={open ? 'Tutup menu' : 'Buka menu'}
@@ -60,10 +102,28 @@ export default function Header() {
         </div>
       </div>
 
+      {searching && (
+        <form ref={searchRef} id="site-search" role="search" onSubmit={submitSearch} className="fade-in border-t border-white/10 bg-black">
+          <div className="container-ev flex items-center gap-3 py-3">
+            <Search className="size-5 shrink-0 text-white/50" />
+            <input
+              type="search"
+              autoFocus
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Cari nama motor atau merek…"
+              aria-label="Cari motor"
+              className="min-w-0 flex-1 bg-transparent py-2 text-base text-white outline-none placeholder:text-white/40"
+            />
+            <button type="submit" className="btn-red shrink-0 px-4 py-2.5 text-xs">Cari</button>
+          </div>
+        </form>
+      )}
+
       {/* Mobile menu */}
       <div
         id="mobile-menu"
-        className={`overflow-hidden border-t border-white/10 bg-black transition-[max-height] duration-300 xl:hidden ${open ? 'max-h-[28rem]' : 'max-h-0'}`}
+        className={`overflow-hidden border-t border-white/10 bg-black transition-[max-height] duration-300 lg:hidden ${open ? 'max-h-[28rem]' : 'max-h-0'}`}
       >
         <nav className="container-ev flex flex-col py-3" aria-label="Menu mobile">
           {NAV.map((item) => (
@@ -78,9 +138,6 @@ export default function Header() {
               {item.label}
             </NavLink>
           ))}
-          <a href={whatsappUrl()} target="_blank" rel="noreferrer" className="btn-red mt-4">
-            <WhatsAppIcon className="size-4" /> Chat via WhatsApp
-          </a>
         </nav>
       </div>
     </header>

@@ -2,13 +2,15 @@ import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Check, MapPin, Plus } from 'lucide-react'
 import { products, productBySlug, SPEC_KEYS } from '../lib/data.js'
-import { brandSlug, formatPrice, whatsappUrl } from '../lib/format.js'
+import { brandSlug, formatPrice, parseDescription, whatsappUrl } from '../lib/format.js'
 import { useCompare } from '../lib/compare.js'
+import { Breadcrumb } from '../components/PageHero.jsx'
 import ProductCard from '../components/ProductCard.jsx'
 import ProductImage from '../components/ProductImage.jsx'
 import SpecIcon from '../components/SpecIcon.jsx'
 import { WhatsAppIcon } from '../components/BrandIcons.jsx'
 import NotFound from './NotFound.jsx'
+import { usePageTitle } from '../lib/title.js'
 
 // Stretch the last spec so odd counts don't leave an empty grey cell (2 columns on phones, 3 from sm)
 const specSpan = (i, n) =>
@@ -21,31 +23,41 @@ export default function ProductDetail() {
   const [pick, setPick] = useState({ slug, index: 0 })
   const active = pick.slug === slug ? pick.index : 0
   const setActive = (index) => setPick({ slug, index })
-  const { has, toggle } = useCompare()
+  const { has, toggle, slugs } = useCompare()
 
+  // Leave room at the bottom of the page for the phone ask bar
   useEffect(() => {
-    if (product) document.title = `${product.name} — Auto EV`
-    return () => { document.title = 'Auto EV — Sepeda Listrik Autohemat Autogaya' }
+    if (!product) return
+    document.body.classList.add('has-ask-bar')
+    return () => document.body.classList.remove('has-ask-bar')
   }, [product])
+
+  usePageTitle(product ? product.name : 'Halaman tidak ditemukan')
 
   if (!product) return <NotFound />
 
   const image = product.images[active] ?? product.images[0]
   const hasColors = product.images.filter((i) => i.color).length > 1
   const specs = SPEC_KEYS.filter((k) => product.specs[k])
-  const related = products.filter((p) => p.brand === product.brand && p.slug !== product.slug).sort((a, b) => b.id - a.id).slice(0, 4)
+  // Same brand, models with a price first, then newest
+  const related = products
+    .filter((p) => p.brand === product.brand && p.slug !== product.slug)
+    .sort((a, b) => Boolean(b.price) - Boolean(a.price) || b.id - a.id)
+    .slice(0, 4)
+  const description = parseDescription(product.description)
   const inCompare = has(product.slug)
 
   return (
     <>
       <section className="bg-ev-soft">
         <div className="container-ev pb-16 pt-6">
-          <nav aria-label="Breadcrumb" className="font-ui text-xs font-semibold uppercase tracking-wider text-ev-gray">
-            <Link to="/" className="hover:text-ev-red">Beranda</Link><span className="mx-2">/</span>
-            <Link to="/koleksi" className="hover:text-ev-red">Koleksi</Link><span className="mx-2">/</span>
-            <Link to={`/koleksi?merek=${brandSlug(product.brand)}`} className="hover:text-ev-red">{product.brand}</Link><span className="mx-2">/</span>
-            <span className="text-ev-ink">{product.name}</span>
-          </nav>
+          <Breadcrumb
+            crumbs={[
+              { label: 'Koleksi', to: '/koleksi' },
+              { label: product.brand, to: `/koleksi?merek=${brandSlug(product.brand)}` },
+              { label: product.name },
+            ]}
+          />
 
           <div className="mt-6 grid gap-10 lg:grid-cols-[1.15fr_1fr] lg:gap-16">
             {/* Gallery */}
@@ -108,7 +120,7 @@ export default function ProductDetail() {
                 <dl className="mt-8 grid grid-cols-2 gap-px bg-black/10 sm:grid-cols-3">
                   {specs.map((k, i) => (
                     <div key={k} className={`bg-white p-4 ${specSpan(i, specs.length)}`}>
-                      <dt className="flex items-center gap-2 text-[11px] font-semibold uppercase text-ev-gray">
+                      <dt className="flex items-center gap-2 text-xs font-semibold uppercase text-ev-gray">
                         <SpecIcon name={k} className="size-4 text-ev-red" /> {k}
                       </dt>
                       <dd className="mt-2 font-display text-xl uppercase text-ev-ink">{product.specs[k]}</dd>
@@ -120,8 +132,9 @@ export default function ProductDetail() {
               )}
 
               <div className="mt-8 grid gap-3 sm:grid-cols-2">
-                <a href={whatsappUrl(product.name)} target="_blank" rel="noreferrer" className="btn-wa sm:col-span-2">
-                  <WhatsAppIcon className="size-5" /> Tanya via WhatsApp
+                {/* On phones and tablets this lives in the sticky ask bar instead */}
+                <a href={whatsappUrl(product.name)} target="_blank" rel="noreferrer" className="btn-wa hidden sm:col-span-2 lg:flex">
+                  <WhatsAppIcon className="size-5" /> Tanya motor ini
                 </a>
                 <button type="button" onClick={() => toggle(product.slug)} aria-pressed={inCompare} className={inCompare ? 'btn-black' : 'btn-outline text-ev-ink'}>
                   {inCompare ? <Check className="size-4" /> : <Plus className="size-4" />}
@@ -133,13 +146,36 @@ export default function ProductDetail() {
               {product.description && (
                 <div className="mt-10 border-t border-black/10 pt-6">
                   <h2 className="text-xl">Tentang motor ini</h2>
-                  <p className="mt-3 whitespace-pre-line text-sm leading-7">{product.description.replace(/ \* /g, '\n• ')}</p>
+                  {description.lines.map((line) => <p key={line} className="mt-3 text-sm leading-7">{line}</p>)}
+                  {description.terms.length > 0 && (
+                    <>
+                      <h3 className="mt-6 font-ui text-xs font-bold uppercase tracking-wider text-ev-gray">Ketentuan garansi</h3>
+                      <ul className="mt-2 space-y-1.5 text-sm leading-6">
+                        {description.terms.map((t) => (
+                          <li key={t} className="flex gap-2.5"><span className="mt-3 h-px w-3 shrink-0 bg-ev-red" aria-hidden="true" />{t}</li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
                 </div>
               )}
             </div>
           </div>
         </div>
       </section>
+
+      {/* Phones and tablets: price and the ask button stay in reach; sits above the compare bar when that's open */}
+      <div className={`fixed inset-x-0 z-20 border-t border-black/10 bg-white/95 backdrop-blur lg:hidden ${slugs.length ? 'bottom-[4.75rem] sm:bottom-[5.25rem]' : 'bottom-0'}`}>
+        <div className="container-ev flex items-center gap-4 py-3">
+          <div className="min-w-0 flex-1">
+            <p className="truncate text-xs text-ev-gray">{product.name}</p>
+            <p className={`font-bold leading-tight ${product.price ? 'text-ev-ink' : 'text-ev-red'}`}>{formatPrice(product.price)}</p>
+          </div>
+          <a href={whatsappUrl(product.name)} target="_blank" rel="noreferrer" className="btn-wa shrink-0 px-5">
+            <WhatsAppIcon className="size-5" /> Tanya motor ini
+          </a>
+        </div>
+      </div>
 
       {related.length > 0 && (
         <section className="py-16 pb-28">

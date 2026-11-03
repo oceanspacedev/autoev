@@ -3,7 +3,6 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import CompareBar from './components/CompareBar.jsx'
-import WhatsAppFloat from './components/WhatsAppFloat.jsx'
 import Home from './pages/Home.jsx'
 import Collection from './pages/Collection.jsx'
 import ProductDetail from './pages/ProductDetail.jsx'
@@ -43,7 +42,6 @@ export default function App() {
       </main>
       <Footer />
       <CompareBar />
-      <WhatsAppFloat />
     </>
   )
 }

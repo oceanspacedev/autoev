@@ -1,24 +1,22 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
-  ArrowRight, BadgePercent, ChevronLeft, ChevronRight, MapPin, Pause, Play, Settings, ShieldCheck, ShoppingBag, Star, Store,
-  Truck, Wrench,
+  ArrowRight, BadgePercent, ChevronLeft, ChevronRight, MapPin, Pause, Play, ShieldCheck, Star, Truck,
 } from 'lucide-react'
 import { articles, brands, featured, minPrice, products, showrooms, site } from '../lib/data.js'
-import { brandSlug, formatDate, formatPrice, whatsappUrl } from '../lib/format.js'
+import { brandSlug, formatDate, formatPrice } from '../lib/format.js'
 import EvGlobe from '../components/EvGlobe.jsx'
 import ProductCard from '../components/ProductCard.jsx'
 import ProductImage from '../components/ProductImage.jsx'
 import Reveal from '../components/Reveal.jsx'
 import SectionTitle from '../components/SectionTitle.jsx'
 import SpecIcon from '../components/SpecIcon.jsx'
-import { WhatsAppIcon } from '../components/BrandIcons.jsx'
+import { ArticleCover, ArticleMeta } from '../components/ArticleBits.jsx'
 
 const HERO_COUNT = 5
 const HERO_INTERVAL = 4000
 const SWIPE_MIN = 40
 const PERK_ICONS = [BadgePercent, ShieldCheck, Truck]
-const SERVICE_ICONS = [Store, ShoppingBag, Settings, Wrench]
 
 function Hero() {
   const slides = featured.slice(0, HERO_COUNT)
@@ -40,31 +38,28 @@ function Hero() {
     <section className="relative overflow-hidden bg-ev-soft" aria-roledescription="carousel" aria-label="Motor unggulan">
       <div className="grid grid-cols-1 lg:min-h-[640px] lg:grid-cols-[1.05fr_1fr]">
         {/* Red slanted block */}
-        <div className="slash-right relative z-10 flex flex-col justify-center bg-ev-red px-4 pb-16 pt-12 text-white sm:px-10 lg:pb-12 lg:pl-[max(2rem,calc((100vw-80rem)/2+2rem))] lg:pr-24">
+        <div className="slash-right relative z-10 flex flex-col justify-center bg-ev-red px-4 pb-12 pt-8 text-white sm:px-10 sm:pb-16 sm:pt-12 lg:pb-12 lg:pl-[max(2rem,calc((100vw-80rem)/2+2rem))] lg:pr-24">
           <p className="flex animate-fade-up items-center gap-3 font-ui text-sm font-bold uppercase tracking-[0.3em] text-white">
             <span className="h-0.5 w-10 bg-white" aria-hidden="true" /> {site.tagline}
           </p>
-          <h1 className="mt-5 animate-fade-up text-5xl leading-[0.9] text-white [animation-delay:100ms] sm:text-7xl xl:text-8xl">
+          <h1 className="mt-4 animate-fade-up text-5xl sm:mt-5 leading-[0.9] text-white [animation-delay:100ms] sm:text-7xl xl:text-8xl">
             Gas tanpa<br />bensin.
           </h1>
-          <p className="mt-6 max-w-md animate-fade-up text-sm leading-7 text-white/90 [animation-delay:200ms] sm:text-base">
+          <p className="mt-4 max-w-md animate-fade-up text-sm leading-6 sm:mt-6 sm:leading-7 text-white/90 [animation-delay:200ms] sm:text-base">
             {products.length}+ model sepeda listrik dari {brands.length} merek, mulai {formatPrice(minPrice)}.
             Bandingkan spesifikasinya, lalu tanya langsung ke tim kami.
           </p>
-          <div className="mt-8 flex animate-fade-up flex-wrap gap-3 [animation-delay:300ms]">
+          <div className="mt-6 flex animate-fade-up flex-wrap gap-3 [animation-delay:300ms] sm:mt-8">
             <Link to="/koleksi" className="btn-black">Cari Motor <ArrowRight className="size-4" /></Link>
-            <a href={whatsappUrl()} target="_blank" rel="noreferrer" className="btn-outline text-white hover:border-white hover:bg-white hover:text-ev-red">
-              <WhatsAppIcon className="size-4" /> Konsultasi Gratis
-            </a>
           </div>
-          <dl className="mt-10 grid max-w-md animate-fade-up grid-cols-3 border-t border-white/25 pt-6 [animation-delay:400ms]">
+          <dl className="mt-10 hidden max-w-md animate-fade-up grid-cols-3 sm:grid border-t border-white/25 pt-6 [animation-delay:400ms]">
             {[
               [`${products.length}+`, 'Model'],
               [brands.length, 'Merek'],
               [showrooms.length, 'Showroom'],
             ].map(([value, label]) => (
               <div key={label} className="flex flex-col-reverse">
-                <dt className="mt-1 font-ui text-[11px] font-bold uppercase tracking-[0.18em] text-white/80">{label}</dt>
+                <dt className="mt-1 font-ui text-xs font-bold uppercase tracking-[0.18em] text-white/80">{label}</dt>
                 <dd className="font-display text-3xl text-white sm:text-4xl">{value}</dd>
               </div>
             ))}
@@ -72,7 +67,7 @@ function Hero() {
         </div>
 
         {/* Auto-sliding featured products */}
-        <div className="relative flex flex-col items-center justify-center px-6 pb-10 pt-10 lg:-ml-16 lg:py-14">
+        <div className="relative flex flex-col items-center justify-center px-6 pb-10 pt-4 sm:pt-10 lg:-ml-16 lg:py-14">
           <span
             key={p.brand}
             className="pointer-events-none absolute inset-x-0 top-[38%] -translate-y-1/2 animate-fade-up select-none text-center font-display text-[22vw] uppercase leading-none text-ev-ink/[0.05] lg:text-[11vw]"
@@ -122,7 +117,7 @@ function Hero() {
                   <dl className="mt-5 grid grid-cols-3 border-t border-black/10 pt-4">
                     {['Jarak Tempuh', 'Kecepatan Max', 'Beban Max'].map((k) => (
                       <div key={k}>
-                        <dt className="flex items-center gap-1.5 text-[11px] uppercase text-ev-gray"><SpecIcon name={k} className="size-3.5 text-ev-red" />{k.replace(' Max', '')}</dt>
+                        <dt className="flex items-center gap-1.5 text-xs uppercase text-ev-gray"><SpecIcon name={k} className="size-3.5 text-ev-red" />{k.replace(' Max', '')}</dt>
                         <dd className="mt-1 font-display text-lg uppercase text-ev-ink">{s.specs[k] ?? '—'}</dd>
                       </div>
                     ))}
@@ -142,15 +137,18 @@ function Hero() {
                   aria-selected={i === active}
                   aria-label={s.name}
                   onClick={() => setActive(i)}
-                  className={`relative h-1.5 overflow-hidden transition-all ${i === active ? 'w-12 bg-ev-red/25' : 'w-5 bg-black/15 hover:bg-black/30'}`}
+                  className={`group flex h-9 items-center transition-all ${i === active ? 'w-12' : 'w-7'}`}
                 >
-                  {i === active && (
-                    <span
-                      key={`${active}-${paused}`}
-                      className={`absolute inset-0 origin-left bg-ev-red ${paused ? '' : 'hero-progress'}`}
-                      style={{ '--hero-interval': `${HERO_INTERVAL}ms` }}
-                    />
-                  )}
+                  {/* Thin bar inside a taller button, so it's easy to tap */}
+                  <span className={`relative block h-1.5 w-full overflow-hidden ${i === active ? 'bg-ev-red/25' : 'bg-black/15 group-hover:bg-black/30'}`}>
+                    {i === active && (
+                      <span
+                        key={`${active}-${paused}`}
+                        className={`absolute inset-0 origin-left bg-ev-red ${paused ? '' : 'hero-progress'}`}
+                        style={{ '--hero-interval': `${HERO_INTERVAL}ms` }}
+                      />
+                    )}
+                  </span>
                 </button>
               ))}
             </div>
@@ -184,7 +182,7 @@ function Perks() {
               <Icon className="size-6 shrink-0 text-ev-red sm:size-7" aria-hidden="true" />
               <div>
                 <p className="font-display text-base uppercase leading-none sm:text-2xl">{perk.title}</p>
-                <p className="mt-1.5 text-[11px] leading-snug text-white/60 sm:text-sm">{perk.text}</p>
+                <p className="mt-1.5 text-xs leading-snug text-white/60 sm:text-sm">{perk.text}</p>
               </div>
             </div>
           )
@@ -239,12 +237,12 @@ function Picks() {
       <div className="container-ev">
         <Reveal className="flex flex-wrap items-end justify-between gap-6">
           <SectionTitle eyebrow="Koleksi" title="Motor pilihan">Satu model terbaru dari tiap merek. Pilih merek untuk lihat lebih banyak.</SectionTitle>
-          <Link to={more.to} className="group hidden items-center gap-2 font-ui text-xs font-bold uppercase tracking-wider text-ev-ink hover:text-ev-red sm:inline-flex">
+          <Link to={more.to} className="group -my-2 hidden items-center gap-2 py-2 font-ui text-xs font-bold uppercase tracking-wider text-ev-ink hover:text-ev-red sm:inline-flex">
             {more.label} <ArrowRight className="size-4 transition group-hover:translate-x-1" />
           </Link>
         </Reveal>
 
-        <div className="no-scrollbar -mx-4 mt-8 overflow-x-auto border-b border-black/10 px-4 sm:mx-0 sm:px-0" role="tablist" aria-label="Filter merek">
+        <div className="no-scrollbar -mx-4 mt-5 overflow-x-auto border-b border-black/10 px-4 sm:mx-0 sm:px-0" role="tablist" aria-label="Filter merek">
           <div className="flex w-max gap-6 sm:gap-8">
             {tabs.map((t) => (
               <button
@@ -253,7 +251,7 @@ function Picks() {
                 role="tab"
                 aria-selected={tab === t}
                 onClick={() => setTab(t)}
-                className={`relative pb-3 font-ui text-xs font-bold uppercase tracking-wider transition ${
+                className={`relative pb-3 pt-3 font-ui text-xs font-bold uppercase tracking-wider transition ${
                   tab === t ? 'text-ev-ink after:absolute after:inset-x-0 after:-bottom-px after:h-0.5 after:bg-ev-red' : 'text-ev-gray hover:text-ev-ink'
                 }`}
               >
@@ -269,31 +267,6 @@ function Picks() {
         <Link to={more.to} className="btn-outline mt-10 w-full text-ev-ink sm:hidden">
           {more.label} <ArrowRight className="size-4" />
         </Link>
-      </div>
-    </section>
-  )
-}
-
-function Services() {
-  return (
-    <section className="py-14 sm:py-20">
-      <div className="container-ev">
-        <Reveal><SectionTitle eyebrow="Kenapa Auto EV" title="Satu tempat, semua beres">Dari pilih motor sampai perawatan, kami urus.</SectionTitle></Reveal>
-        <div className="mt-12 grid gap-px bg-black/10 sm:grid-cols-2 lg:grid-cols-4">
-          {site.services.map((s, i) => {
-            const Icon = SERVICE_ICONS[i]
-            return (
-              <Reveal key={s.title} delay={i * 80} className="group bg-white p-6 transition hover:bg-ev-red hover:text-white sm:p-8">
-                <div className="flex items-center justify-between">
-                  <Icon className="size-8 text-ev-red transition group-hover:text-white" />
-                  <span className="font-display text-4xl text-black/5 transition sm:text-5xl group-hover:text-white/20">0{i + 1}</span>
-                </div>
-                <h3 className="mt-5 text-2xl transition group-hover:text-white sm:mt-8">{s.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-ev-gray transition group-hover:text-white/90">{s.text}</p>
-              </Reveal>
-            )
-          })}
-        </div>
       </div>
     </section>
   )
@@ -403,38 +376,51 @@ function Testimonials() {
 }
 
 function LatestArticles() {
+  const [lead, ...rest] = articles.slice(0, 5)
   return (
     <section className="bg-ev-soft py-14 sm:py-20">
       <div className="container-ev">
-        <Reveal className="flex items-end justify-between gap-6">
+        <Reveal className="flex flex-wrap items-end justify-between gap-6">
           <SectionTitle eyebrow="Artikel & Komunitas" title="Kabar terbaru" />
-          <Link to="/artikel" className="btn-outline hidden text-ev-ink sm:inline-flex">Semua artikel <ArrowRight className="size-4" /></Link>
+          <Link to="/artikel" className="group -my-2 hidden items-center gap-2 py-2 font-ui text-xs font-bold uppercase tracking-wider text-ev-ink hover:text-ev-red sm:inline-flex">
+            Semua {articles.length} artikel <ArrowRight className="size-4 transition group-hover:translate-x-1" />
+          </Link>
         </Reveal>
-        <div className="mt-10 grid gap-5 md:grid-cols-3">
-          {articles.slice(0, 3).map((a, i) => (
-            <Reveal key={a.slug} delay={i * 80} className="flex">
-              <Link
-                to={`/artikel/${a.slug}`}
-                className="group flex w-full flex-col bg-white transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-20px_rgba(43,22,27,0.3)]"
-              >
-                <div className="aspect-video overflow-hidden bg-ev-light">
-                  {a.cover && <img src={a.cover} alt="" loading="lazy" className="size-full object-cover transition duration-500 group-hover:scale-105" />}
-                </div>
-                <div className="flex flex-1 flex-col p-6">
-                  <p className="font-ui text-xs font-semibold uppercase tracking-wider text-ev-gray">{formatDate(a.date)}</p>
-                  <h3 className="mt-2 line-clamp-2 font-sans text-lg font-bold normal-case leading-snug text-ev-ink transition group-hover:text-ev-red">
-                    {a.title}
-                  </h3>
-                  <p className="mt-2 line-clamp-2 text-sm leading-6 text-ev-gray">{a.excerpt}</p>
-                  <span className="mt-auto inline-flex items-center gap-1.5 pt-5 font-ui text-xs font-bold uppercase tracking-wider text-ev-red">
-                    Baca selengkapnya <ArrowRight className="size-3.5 transition group-hover:translate-x-1" />
-                  </span>
-                </div>
-              </Link>
-            </Reveal>
-          ))}
+
+        <div className="mt-8 grid gap-8 sm:mt-10 lg:grid-cols-[1.4fr_1fr] lg:gap-12">
+          <Reveal>
+            <Link to={`/artikel/${lead.slug}`} className="group block md:grid md:grid-cols-2 md:items-center md:gap-8 lg:block">
+              <ArticleCover article={lead} zoom="group-hover:scale-[1.03]" />
+              <div>
+                <ArticleMeta article={lead} className="mt-5 md:mt-0 lg:mt-5" />
+                <h3 className="mt-2 font-sans text-xl font-bold normal-case leading-snug text-ev-ink transition group-hover:text-ev-red sm:text-2xl">
+                  {lead.title}
+                </h3>
+                <p className="mt-3 line-clamp-2 text-sm leading-6 text-ev-gray sm:line-clamp-3 sm:text-base sm:leading-7">{lead.excerpt}</p>
+                <span className="mt-4 inline-flex items-center gap-1.5 font-ui text-xs font-bold uppercase tracking-wider text-ev-red">
+                  Baca selengkapnya <ArrowRight className="size-3.5 transition group-hover:translate-x-1" />
+                </span>
+              </div>
+            </Link>
+          </Reveal>
+
+          <ul className="divide-y divide-black/10 border-t border-black/10 lg:border-t-0">
+            {rest.map((a, i) => (
+              <Reveal as="li" key={a.slug} delay={(i + 1) * 80} className="py-5 lg:first:pt-0 lg:last:pb-0">
+                <Link to={`/artikel/${a.slug}`} className="group flex items-start gap-4 sm:gap-5">
+                  <ArticleCover article={a} className="w-32 shrink-0 sm:w-44 lg:w-36 xl:w-40" />
+                  <div className="min-w-0 flex-1">
+                    <ArticleMeta article={a} short narrow />
+                    <h3 className="mt-1.5 line-clamp-3 font-sans text-[15px] font-bold normal-case leading-snug text-ev-ink transition group-hover:text-ev-red sm:text-base">
+                      {a.title}
+                    </h3>
+                  </div>
+                </Link>
+              </Reveal>
+            ))}
+          </ul>
         </div>
-        <Link to="/artikel" className="btn-outline mt-8 w-full text-ev-ink sm:hidden">Semua artikel <ArrowRight className="size-4" /></Link>
+        <Link to="/artikel" className="btn-outline mt-8 w-full text-ev-ink sm:hidden">Semua {articles.length} artikel <ArrowRight className="size-4" /></Link>
       </div>
     </section>
   )
@@ -454,11 +440,8 @@ function ShowroomCta() {
             <h2 className="mt-3 text-4xl text-white sm:text-6xl">{showrooms.length} showroom Auto EV</h2>
             <p className="mt-3 max-w-xl text-white/90">Datang, lihat motornya langsung, dan ngobrol dengan tim kami di cabang terdekat.</p>
           </div>
-          <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
-            <Link to="/kontak#showroom" className="btn-black">Cari Showroom <ArrowRight className="size-4" /></Link>
-            <a href={whatsappUrl()} target="_blank" rel="noreferrer" className="btn-outline text-white hover:border-white hover:bg-white hover:text-ev-red">
-              <WhatsAppIcon className="size-4" /> Tanya via WhatsApp
-            </a>
+          <div className="flex w-full sm:w-auto">
+            <Link to="/kontak#showroom" className="btn-black w-full sm:w-auto">Cari Showroom <ArrowRight className="size-4" /></Link>
           </div>
         </div>
       </section>
@@ -473,7 +456,6 @@ export default function Home() {
       <Perks />
       <BrandStrip />
       <Picks />
-      <Services />
       <EvBenefits />
       <Testimonials />
       <LatestArticles />
